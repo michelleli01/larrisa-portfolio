@@ -9,11 +9,7 @@
 
 <section class="py-12">
 	<div class="flex justify-between items-center max-w-[70%] mx-auto">
-		<!-- display: flex;
-flex-direction: column;
-align-items: flex-start;
-gap: 1.25rem; -->
-    <div class="flex flex-col align-start max-w-[30rem] max-h-[7rem] gap-[1.25rem]">
+		<div class="flex flex-col align-start max-w-[30rem] max-h-[7rem] gap-[1.25rem]">
 			<p>Howdy! I’m Larrisa!</p>
 			<p>
 				I’m an designer, story teller, and animal lover currently making magic at Disney✨ and
@@ -21,9 +17,12 @@ gap: 1.25rem; -->
 			</p>
 		</div>
 
-		<img src={home_pic_1} alt="larrisa on horse" class="object-cover no-repeat max-h-[20vh] rounded-[1rem]" />
+		<img
+			src={home_pic_1}
+			alt="larrisa on horse"
+			class="object-cover no-repeat max-h-[20vh] rounded-[1rem]"
+		/>
 	</div>
 </section>
 
-<section class="bg-portfolio h-screen">
-</section>
+<section class="bg-portfolio h-screen"></section>
