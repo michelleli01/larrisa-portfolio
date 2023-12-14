@@ -2,7 +2,11 @@
 export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
-		extend: {}
+		extend: {
+			backgroundImage: {
+				'portfolio': "url('/src/lib/assets/background.png')"
+			}
+		}
 	},
 	plugins: []
 };
