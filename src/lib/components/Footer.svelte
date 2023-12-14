@@ -1,7 +1,7 @@
 <footer
 	class="flex max-w-[100%] justify-between align-center px-[2rem] pb-[2rem] pt-[2.5rem] bg-footer"
 >
-	<div class="flex flex-col justify-cetner align-start gap-[1.2rem]">
+	<div class="flex flex-col justify-center align-start gap-[1.2rem]">
 		<b> made with ☕️ in ithaca, ny </b>
 		<p>
 			Feel free to view my <a
