@@ -2,7 +2,7 @@
 	import logo from '$lib/assets/logo.png';
 </script>
 
-<header class="flex top-0 px-7 pt-7 pb-4 items-center justify-between border-solid">
+<header class="flex top-0 px-[2rem] pt-[2rem] pb-[1rem] items-center justify-between border-solid">
 	<div class="corner">
 		<a href="/">
 			<img src={logo} alt="portfolio logo" class="object-cover max-h-[5vh]" />

@@ -4,7 +4,10 @@ export default {
 	theme: {
 		extend: {
 			backgroundImage: {
-				'portfolio': "url('/src/lib/assets/background.png')"
+				portfolio: "url('/src/lib/assets/background.png')"
+			},
+			colors: {
+				'footer': '#E7E9F9'
 			}
 		}
 	},

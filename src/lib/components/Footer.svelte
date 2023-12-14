@@ -1,0 +1,55 @@
+<!-- display: flex;
+width: 94.5rem;
+padding: 2.5rem 2rem 2rem 2rem;
+justify-content: space-between;
+align-items: center; -->
+<footer class="flex max-w-[100%] justify-between align-center px-[2rem] pb-[2rem] pt-[2.5rem] bg-footer">
+	<!-- display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 1.125rem; -->
+	<div class="flex flex-col justify-cetner align-start gap-[1.2rem]">
+		<b> made with ☕️ in ithaca, ny </b>
+		<p>Feel free to view my resume or reach out. I love talking about design, dogs, and music.</p>
+	</div>
+
+  <!-- display: flex;
+justify-content: center;
+align-items: flex-end;
+gap: 4rem; -->
+	<div class="flex justify-center align-end gap-[4rem] max-h-[3rem] max-w-[17rem]">
+		<svg xmlns="http://www.w3.org/2000/svg" fill="none">
+			<path
+				fill-rule="evenodd"
+				clip-rule="evenodd"
+				d="M5 0C2.23858 0 0 2.23858 0 5V43C0 45.7614 2.23858 48 5 48H43C45.7614 48 48 45.7614 48 43V5C48 2.23858 45.7614 0 43 0H5ZM10 35V12.5H38V35H10ZM24 24.6413L35.1043 15H12.8957L24 24.6413ZM12.3333 17.7288V32.5H35.6667V17.7288L24 27.8587L12.3333 17.7288Z"
+				fill="#283671"
+			/>
+		</svg>
+
+		<svg xmlns="http://www.w3.org/2000/svg" fill="none">
+			<path
+				d="M38 0H10C4.478 0 0 4.478 0 10V38C0 43.522 4.478 48 10 48H38C43.524 48 48 43.522 48 38V10C48 4.478 43.524 0 38 0ZM16 38H10V16H16V38ZM13 13.464C11.068 13.464 9.5 11.884 9.5 9.936C9.5 7.988 11.068 6.408 13 6.408C14.932 6.408 16.5 7.988 16.5 9.936C16.5 11.884 14.934 13.464 13 13.464ZM40 38H34V26.792C34 20.056 26 20.566 26 26.792V38H20V16H26V19.53C28.792 14.358 40 13.976 40 24.482V38Z"
+				fill="#283671"
+			/><svg
+				xmlns="http://www.w3.org/2000/svg"
+				width="48"
+				height="48"
+				fill="none"
+			>
+				<path
+					d="M38 0H10C4.478 0 0 4.478 0 10V38C0 43.522 4.478 48 10 48H38C43.524 48 48 43.522 48 38V10C48 4.478 43.524 0 38 0ZM16 38H10V16H16V38ZM13 13.464C11.068 13.464 9.5 11.884 9.5 9.936C9.5 7.988 11.068 6.408 13 6.408C14.932 6.408 16.5 7.988 16.5 9.936C16.5 11.884 14.934 13.464 13 13.464ZM40 38H34V26.792C34 20.056 26 20.566 26 26.792V38H20V16H26V19.53C28.792 14.358 40 13.976 40 24.482V38Z"
+					fill="#283671"
+				/>
+			</svg>
+		</svg>
+
+		<svg xmlns="http://www.w3.org/2000/svg" fill="none">
+			<path
+				d="M38 0H10C4.478 0 0 4.478 0 10V38C0 43.522 4.478 48 10 48H38C43.524 48 48 43.522 48 38V10C48 4.478 43.524 0 38 0ZM9.334 31.048C8.524 30.318 8 29.242 8 28.024C8 26.808 8.524 25.732 9.334 25V31.048ZM12 32C11.514 32 11.262 32.006 10.666 31.816V24.232C11.298 24.03 11.596 24.038 12 24.07V32ZM14.666 32H13.334V24.444L13.746 24.686C13.928 23.936 14.252 23.25 14.668 22.64L14.666 32ZM17.334 32H16V21.244C16.412 20.936 16.852 20.672 17.334 20.49V32ZM20 32H18.666V20.19C19.168 20.136 19.322 20.098 20 20.202V32ZM22.666 32H21.332V20.6L21.838 20.846C22.076 20.432 22.36 20.056 22.666 19.702V32ZM36.12 32H24V18.504C25.064 17.772 26.32 17.334 27.684 17.334C31.302 17.334 34.234 20.322 34.504 24.106C37.11 22.83 40 24.88 40 27.858C40 30.144 38.262 32 36.12 32Z"
+				fill="#283671"
+			/>
+		</svg>
+	</div>
+</footer>
