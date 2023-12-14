@@ -20,7 +20,7 @@
 		<img
 			src={home_pic_1}
 			alt="larrisa on horse"
-			class="object-cover no-repeat max-h-[20vh] rounded-[1rem]"
+			class="object-cover max-h-[20vh] rounded-[1rem]"
 		/>
 	</div>
 </section>
