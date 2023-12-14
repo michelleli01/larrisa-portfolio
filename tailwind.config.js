@@ -7,7 +7,8 @@ export default {
 				portfolio: "url('/src/lib/assets/background.png')"
 			},
 			colors: {
-				'footer': '#E7E9F9'
+				'footer': '#E7E9F9',
+				'header': '#283671'
 			}
 		}
 	},
