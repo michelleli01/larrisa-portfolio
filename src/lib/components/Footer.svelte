@@ -1,23 +1,11 @@
-<!-- display: flex;
-width: 94.5rem;
-padding: 2.5rem 2rem 2rem 2rem;
-justify-content: space-between;
-align-items: center; -->
-<footer class="flex max-w-[100%] justify-between align-center px-[2rem] pb-[2rem] pt-[2.5rem] bg-footer">
-	<!-- display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-gap: 1.125rem; -->
+<footer
+	class="flex max-w-[100%] justify-between align-center px-[2rem] pb-[2rem] pt-[2.5rem] bg-footer"
+>
 	<div class="flex flex-col justify-cetner align-start gap-[1.2rem]">
 		<b> made with ☕️ in ithaca, ny </b>
 		<p>Feel free to view my resume or reach out. I love talking about design, dogs, and music.</p>
 	</div>
 
-  <!-- display: flex;
-justify-content: center;
-align-items: flex-end;
-gap: 4rem; -->
 	<div class="flex justify-center align-end gap-[4rem] max-h-[3rem] max-w-[17rem]">
 		<svg xmlns="http://www.w3.org/2000/svg" fill="none">
 			<path
@@ -32,12 +20,7 @@ gap: 4rem; -->
 			<path
 				d="M38 0H10C4.478 0 0 4.478 0 10V38C0 43.522 4.478 48 10 48H38C43.524 48 48 43.522 48 38V10C48 4.478 43.524 0 38 0ZM16 38H10V16H16V38ZM13 13.464C11.068 13.464 9.5 11.884 9.5 9.936C9.5 7.988 11.068 6.408 13 6.408C14.932 6.408 16.5 7.988 16.5 9.936C16.5 11.884 14.934 13.464 13 13.464ZM40 38H34V26.792C34 20.056 26 20.566 26 26.792V38H20V16H26V19.53C28.792 14.358 40 13.976 40 24.482V38Z"
 				fill="#283671"
-			/><svg
-				xmlns="http://www.w3.org/2000/svg"
-				width="48"
-				height="48"
-				fill="none"
-			>
+			/><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none">
 				<path
 					d="M38 0H10C4.478 0 0 4.478 0 10V38C0 43.522 4.478 48 10 48H38C43.524 48 48 43.522 48 38V10C48 4.478 43.524 0 38 0ZM16 38H10V16H16V38ZM13 13.464C11.068 13.464 9.5 11.884 9.5 9.936C9.5 7.988 11.068 6.408 13 6.408C14.932 6.408 16.5 7.988 16.5 9.936C16.5 11.884 14.934 13.464 13 13.464ZM40 38H34V26.792C34 20.056 26 20.566 26 26.792V38H20V16H26V19.53C28.792 14.358 40 13.976 40 24.482V38Z"
 					fill="#283671"
