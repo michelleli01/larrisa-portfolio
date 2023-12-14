@@ -3,7 +3,15 @@
 >
 	<div class="flex flex-col justify-cetner align-start gap-[1.2rem]">
 		<b> made with ☕️ in ithaca, ny </b>
-		<p>Feel free to view my resume or reach out. I love talking about design, dogs, and music.</p>
+		<p>
+			Feel free to view my <a
+				href="https://drive.google.com/file/d/1k1Txj8r5F9foS9hBrCeUBWCIQAVDnqXL/view"
+				class="underline">resume</a
+			> or <a
+				href="mailto:lc949@cornell.edu"
+				class="underline">reach out</a
+			>. I love talking about design, dogs, and music.
+		</p>
 	</div>
 
 	<div class="flex justify-center align-end gap-[4rem] max-h-[3rem] max-w-[17rem]">
