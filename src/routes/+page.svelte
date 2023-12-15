@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>larrisa chen</title>
 	<meta name="description" content="portfolio home page" />
 </svelte:head>
 

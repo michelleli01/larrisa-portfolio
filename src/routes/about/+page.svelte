@@ -3,11 +3,6 @@
 	import collage from '$lib/assets/collage.png';
 </script>
 
-<svelte:head>
-	<title>About</title>
-	<meta name="description" content="portfolio about page" />
-</svelte:head>
-
 <section class="flex flex-col align-center flex max-w-[75%] gap-[4rem] mx-auto">
 	<div></div>
 	<div class="flex justify-between align-center">
