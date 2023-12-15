@@ -11,7 +11,7 @@
 
 	<nav>
 		<ul class="flex p10 items-end gap-4">
-			<li><a href="/projects">Work</a></li>
+			<li><a href="/">Work</a></li>
 			<li><a href="/about">About</a></li>
 			<li>
 				<a href="https://drive.google.com/file/d/1k1Txj8r5F9foS9hBrCeUBWCIQAVDnqXL/view">Resume</a>
