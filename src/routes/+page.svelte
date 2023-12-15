@@ -13,7 +13,7 @@
 
 <section class="py-[3.12rem]">
 	<div class="flex font-header text-[1.5rem] justify-between items-center max-w-[75%] mx-auto">
-		<div class="flex flex-col align-start max-w-[30rem] max-h-[7rem] gap-[1.25rem]">
+		<div class="flex flex-col align-start max-w-[30rem] gap-[1.25rem]">
 			<p>Howdy! I’m Larrisa!</p>
 			<p>
 				I’m an designer, story teller, and animal lover currently making magic at Disney✨ and
