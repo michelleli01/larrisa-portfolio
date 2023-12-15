@@ -25,11 +25,11 @@
 	</div>
 </section>
 
-<section class="bg-portfolio">
+<section class="bg-portfolio pb-[3.12rem]">
 	<div
 		class="flex max-w-[75%] mx-auto justify-between align-items content-between align-start flex-wrap"
 	>
-		<div class="flex flex-col align-center">
+		<div class="flex flex-col align-center pb-[5rem]">
 			<img src={disney} alt="disney mockups" class="max-w-[25rem]" />
 			<h2
 				class="font-header font-semibold text-[2rem] text-header bg-project backdrop-blur-[2px] flex px-[2rem] py-[1rem] flex-col content-center align-start gap-[6rem] text-center"
