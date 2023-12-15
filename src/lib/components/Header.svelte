@@ -5,12 +5,12 @@
 <header class="flex top-0 px-[2rem] pt-[2rem] pb-[1rem] items-center justify-between border-solid">
 	<div class="corner">
 		<a href="/">
-			<img src={logo} alt="portfolio logo" class="object-cover max-h-[5vh]" />
+			<img src={logo} alt="portfolio logo" class="object-cover max-h-[7vh]" />
 		</a>
 	</div>
 
 	<nav>
-		<ul class="flex font-header text-[1.5rem] p10 items-end gap-4">
+		<ul class="flex font-normal font-header text-[1.5rem] p10 items-end gap-4">
 			<li><a href="/">Work</a></li>
 			<li><a href="/about">About</a></li>
 			<li>
