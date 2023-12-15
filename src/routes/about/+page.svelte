@@ -1,9 +1,5 @@
 <script>
 	import headshot from '$lib/assets/headshot.jpg';
-	import adirondacks_climbing from '$lib/assets/adirondacks_climbing.png';
-	import rainier_trip from '$lib/assets/rainier_trip.png';
-	import recording_touchtones from '$lib/assets/recording_touchtones.png';
-	import touchtones_concert from '$lib/assets/touchtones_concert.jpg';
 	import collage from '$lib/assets/collage.png';
 </script>
 
