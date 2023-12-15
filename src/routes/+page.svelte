@@ -8,7 +8,7 @@
 </svelte:head>
 
 <section class="py-12">
-	<div class="flex justify-between items-center max-w-[70%] mx-auto">
+	<div class="flex justify-between items-center max-w-[75%] mx-auto">
 		<div class="flex flex-col align-start max-w-[30rem] max-h-[7rem] gap-[1.25rem]">
 			<p>Howdy! I’m Larrisa!</p>
 			<p>
