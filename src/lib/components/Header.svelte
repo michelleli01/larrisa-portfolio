@@ -10,7 +10,7 @@
 	</div>
 
 	<nav>
-		<ul class="flex p10 items-end gap-4">
+		<ul class="flex font-header text-[1.5rem] p10 items-end gap-4">
 			<li><a href="/">Work</a></li>
 			<li><a href="/about">About</a></li>
 			<li>
