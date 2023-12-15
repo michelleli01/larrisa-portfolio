@@ -11,8 +11,8 @@
 	<meta name="description" content="portfolio home page" />
 </svelte:head>
 
-<section class="py-12">
-	<div class="flex justify-between items-center max-w-[75%] mx-auto">
+<section class="py-[3.12rem]">
+	<div class="flex font-header text-[1.5rem] justify-between items-center max-w-[75%] mx-auto">
 		<div class="flex flex-col align-start max-w-[30rem] max-h-[7rem] gap-[1.25rem]">
 			<p>Howdy! I’m Larrisa!</p>
 			<p>
@@ -25,27 +25,44 @@
 	</div>
 </section>
 
-<section
-	class="bg-portfolio flex max-w-[75%] mx-auto justify-between align-items content-between align-start flex-wrap"
->
-	<div class="flex flex-col align-center gap-[0.3rem]">
-		<img src={disney} alt="disney mockups" class="max-w-[25rem]" />
-		<h2 class="flex px-[2rem] py-[1rem] flex-col content-center align-start gap-[6rem]">Disney</h2>
-	</div>
+<section class="bg-portfolio">
+	<div
+		class="flex max-w-[75%] mx-auto justify-between align-items content-between align-start flex-wrap"
+	>
+		<div class="flex flex-col align-center">
+			<img src={disney} alt="disney mockups" class="max-w-[25rem]" />
+			<h2
+				class="font-header font-semibold text-[2rem] text-header bg-project backdrop-blur-[2px] flex px-[2rem] py-[1rem] flex-col content-center align-start gap-[6rem] text-center"
+			>
+				Disney
+			</h2>
+		</div>
 
-	<div class="flex flex-col align-center gap-[0.3rem]">
-		<img src={growceries} alt="disney mockups" class="max-w-[25rem]" />
-		<h2 class="flex px-[2rem] py-[1rem] flex-col content-center align-start gap-[6rem]">Grow-ceries</h2>
-	</div>
+		<div class="flex flex-col align-center">
+			<img src={growceries} alt="disney mockups" class="max-w-[25rem]" />
+			<h2
+				class="font-header font-semibold text-[2rem] text-header bg-project backdrop-blur-[2px] flex px-[2rem] py-[1rem] flex-col content-center align-start gap-[6rem] text-center"
+			>
+				Grow-ceries
+			</h2>
+		</div>
 
-	<div class="flex flex-col align-center gap-[0.3rem]">
-		<img src={carriage} alt="disney mockups" class="max-w-[25rem]" />
-		<h2 class="flex px-[2rem] py-[1rem] flex-col content-center align-start gap-[6rem]">Carriage</h2>
-	</div>
+		<div class="flex flex-col align-center">
+			<img src={carriage} alt="disney mockups" class="max-w-[25rem]" />
+			<h2
+				class="font-header font-semibold text-[2rem] text-header bg-project backdrop-blur-[2px] flex px-[2rem] py-[1rem] flex-col content-center align-start gap-[6rem] text-center"
+			>
+				Carriage
+			</h2>
+		</div>
 
-	<div class="flex flex-col align-center gap-[0.3rem]">
-		<img src={instagram} alt="disney mockups" class="max-w-[25rem]" />
-		<h2 class="flex px-[2rem] py-[1rem] flex-col content-center align-start gap-[6rem]">Instagram</h2>
+		<div class="flex flex-col align-center">
+			<img src={instagram} alt="disney mockups" class="max-w-[25rem]" />
+			<h2
+				class="font-header font-semibold text-[2rem] text-header bg-project backdrop-blur-[2px] flex px-[2rem] py-[1rem] flex-col content-center align-start gap-[6rem] text-center"
+			>
+				Instagram
+			</h2>
+		</div>
 	</div>
-
 </section>
