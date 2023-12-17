@@ -12,8 +12,10 @@
 </svelte:head>
 
 <section class="py-[3.12rem]">
-	<div class="flex font-header text-[1.5rem] justify-between items-center max-w-[75%] mx-auto">
-		<div class="flex flex-col align-start max-w-[30rem] gap-[1.25rem]">
+	<div class="flex flex-col md:flex-row font-header text-[1.5rem] justify-between items-center max-w-[75%] mx-auto">
+		<img src={home_pic_1} alt="larrisa on horse" class="md:hidden object-cover max-w-[25vh] rounded-[1rem] mb-[2rem]" />
+
+		<div class="md:flex md:flex-col md:items-start md:max-w-[30rem] gap-[1.25rem]">
 			<p>Howdy! I’m Larrisa!</p>
 			<p>
 				I’m an designer, story teller, and animal lover currently making magic at Disney✨ and
@@ -21,7 +23,7 @@
 			</p>
 		</div>
 
-		<img src={home_pic_1} alt="larrisa on horse" class="object-cover max-w-[25vh] rounded-[1rem]" />
+		<img src={home_pic_1} alt="larrisa on horse" class="hidden md:flex md:object-cover md:max-w-[25vh] rounded-[1rem]" />
 	</div>
 </section>
 
