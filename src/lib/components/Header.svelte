@@ -18,7 +18,7 @@
 	<nav>
 		<button
 			on:click={toggleNavbar}
-			class="flex md:hidden font-normal font-header text-[1.5rem] p10 items-end gap-4"
+			class="flex md:hidden font-normal font-header text-header items-end gap-[4rem]"
 		>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
