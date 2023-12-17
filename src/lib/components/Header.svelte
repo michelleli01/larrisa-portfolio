@@ -1,5 +1,11 @@
 <script>
 	import logo from '$lib/assets/logo.png';
+
+	let showMenu = false;
+
+	function toggleNavbar() {
+		showMenu = !showMenu;
+	}
 </script>
 
 <header class="flex top-0 px-[2rem] pt-[2rem] pb-[1rem] items-center justify-between border-solid">
@@ -10,13 +16,35 @@
 	</div>
 
 	<nav>
-		<ul class="flex font-normal font-header text-[1.5rem] p10 items-end gap-4">
-			<li><a href="/">Work</a></li>
-			<li><a href="/about">About</a></li>
-			<li>
-				<a href="https://drive.google.com/file/d/1k1Txj8r5F9foS9hBrCeUBWCIQAVDnqXL/view">Resume</a>
-			</li>
-		</ul>
+		<button
+			on:click={toggleNavbar}
+			class="flex md:hidden font-normal font-header text-[1.5rem] p10 items-end gap-4"
+		>
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				fill="none"
+				viewBox="0 0 24 24"
+				stroke-width="1.5"
+				stroke="currentColor"
+				class="w-10 h-10 text-header"
+			>
+				<path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+				/>
+			</svg>
+		</button>
+
+		<div
+			class="flex-col mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0 {showMenu
+				? 'flex'
+				: 'hidden'}"
+		>
+			<a href="/">Work</a>
+			<a href="/about">About</a>
+			<a href="https://drive.google.com/file/d/1k1Txj8r5F9foS9hBrCeUBWCIQAVDnqXL/view">Resume</a>
+		</div>
 	</nav>
 </header>
 <svg xmlns="http://www.w3.org/2000/svg" width="1512" height="33" fill="none" class="max-w-[100%]">
