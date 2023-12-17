@@ -12,8 +12,14 @@
 </svelte:head>
 
 <section class="py-[3.12rem]">
-	<div class="flex flex-col md:flex-row font-header text-[1.5rem] justify-between items-center max-w-[75%] mx-auto">
-		<img src={home_pic_1} alt="larrisa on horse" class="md:hidden object-cover max-w-[25vh] rounded-[1rem] mb-[2rem]" />
+	<div
+		class="flex flex-col md:flex-row font-header text-[1.5rem] justify-between items-center max-w-[75%] mx-auto"
+	>
+		<img
+			src={home_pic_1}
+			alt="larrisa on horse"
+			class="md:hidden object-cover max-w-[25vh] rounded-[1rem] mb-[2rem]"
+		/>
 
 		<div class="md:flex md:flex-col md:items-start md:max-w-[30rem] gap-[1.25rem]">
 			<p>Howdy! I’m Larrisa!</p>
@@ -23,7 +29,11 @@
 			</p>
 		</div>
 
-		<img src={home_pic_1} alt="larrisa on horse" class="hidden md:flex md:object-cover md:max-w-[25vh] rounded-[1rem]" />
+		<img
+			src={home_pic_1}
+			alt="larrisa on horse"
+			class="hidden md:flex md:object-cover md:max-w-[25vh] rounded-[1rem]"
+		/>
 	</div>
 </section>
 
@@ -31,14 +41,14 @@
 	<div
 		class="flex flex-col items-center md:flex-row md:max-w-[75%] md:mx-auto md:justify-between md:align-items md:content-between md:align-start flex-wrap"
 	>
-		<div class="flex flex-col align-center pb-[5rem]">
+		<a class="flex flex-col align-center pb-[5rem]" href="/work/disney">
 			<img src={disney} alt="disney mockups" class="max-w-[25rem]" />
 			<h2
 				class="font-header font-semibold text-[2rem] text-header bg-project backdrop-blur-[2px] flex px-[2rem] py-[1rem] flex-col content-center align-start gap-[6rem] text-center"
 			>
 				Disney
 			</h2>
-		</div>
+		</a>
 
 		<div class="flex flex-col align-center">
 			<img src={growceries} alt="disney mockups" class="max-w-[25rem]" />
