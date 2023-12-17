@@ -37,7 +37,7 @@
 	</div>
 </section>
 
-<section class="bg-portfolio pb-[3.12rem]">
+<section id="work" class="bg-portfolio pb-[3.12rem]">
 	<div
 		class="flex flex-col items-center md:flex-row md:max-w-[75%] md:mx-auto md:justify-between md:align-items md:content-between md:align-start flex-wrap"
 	>
@@ -50,31 +50,31 @@
 			</h2>
 		</a>
 
-		<div class="flex flex-col align-center">
+		<a class="flex flex-col align-center" href="/work/growceries">
 			<img src={growceries} alt="disney mockups" class="max-w-[25rem]" />
 			<h2
 				class="font-header font-semibold text-[2rem] text-header bg-project backdrop-blur-[2px] flex px-[2rem] py-[1rem] flex-col content-center align-start gap-[6rem] text-center"
 			>
 				Grow-ceries
 			</h2>
-		</div>
+		</a>
 
-		<div class="flex flex-col align-center">
+		<a class="flex flex-col align-center" href="/work/carriage">
 			<img src={carriage} alt="disney mockups" class="max-w-[25rem]" />
 			<h2
 				class="font-header font-semibold text-[2rem] text-header bg-project backdrop-blur-[2px] flex px-[2rem] py-[1rem] flex-col content-center align-start gap-[6rem] text-center"
 			>
 				Carriage
 			</h2>
-		</div>
+		</a>
 
-		<div class="flex flex-col align-center">
+		<a class="flex flex-col align-center" href="/work/instagram">
 			<img src={instagram} alt="disney mockups" class="max-w-[25rem]" />
 			<h2
 				class="font-header font-semibold text-[2rem] text-header bg-project backdrop-blur-[2px] flex px-[2rem] py-[1rem] flex-col content-center align-start gap-[6rem] text-center"
 			>
 				Instagram
 			</h2>
-		</div>
+		</a>
 	</div>
 </section>

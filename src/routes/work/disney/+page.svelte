@@ -67,7 +67,7 @@
 </section>
 <div class="flex justify-between max-w-[75%] mx-auto mb-[4rem]">
 		<div>
-			<a class="flex items-center gap-[1.5rem]" href="/">
+			<a class="flex items-center gap-[1.5rem]" href="/#work">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					width="103"
