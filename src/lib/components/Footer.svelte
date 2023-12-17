@@ -14,7 +14,7 @@
 		</p>
 	</div>
 
-	<div class="flex justify-center align-end gap-[4rem] max-h-[3rem] max-w-[17rem]">
+	<div class="flex gap-[6rem] md:gap-[4rem] max-h-[3rem] md:max-w-[17rem]">
 		<svg xmlns="http://www.w3.org/2000/svg" fill="none">
 			<path
 				fill-rule="evenodd"
