@@ -52,6 +52,6 @@
 			Thanks for stopping by!
 		</p>
 	</div>
-	<img src={collage_mobile} alt="collage of fun memories" class="md:hidden md:max-w-[30rem]" />
+	<img src={collage_mobile} alt="collage of fun memories" class="md:hidden" />
 	<div></div>
 </section>
