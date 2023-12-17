@@ -13,9 +13,8 @@
 			<a href="/">
 				<img src={logo} alt="portfolio logo" class="object-cover max-h-[7vh]" />
 			</a>
-	</div>
 
-	<button
+<button
 		on:click={toggleNavbar}
 		class="flex md:hidden font-normal font-header text-header items-end gap-[4rem]"
 	>
@@ -34,6 +33,9 @@
 			/>
 		</svg>
 	</button>
+	</div>
+
+
 
 	<nav>
 		<ul class="font-normal border-b-2 md:gap-[2rem] md:border-none border-header md:flex md:flex-row md:items-center font-normal font-header text-header {showMenu
