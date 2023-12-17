@@ -27,7 +27,7 @@
 
 <section class="bg-portfolio pb-[3.12rem]">
 	<div
-		class="flex max-w-[75%] mx-auto justify-between align-items content-between align-start flex-wrap"
+		class="flex flex-col items-center md:flex-row md:max-w-[75%] md:mx-auto md:justify-between md:align-items md:content-between md:align-start flex-wrap"
 	>
 		<div class="flex flex-col align-center pb-[5rem]">
 			<img src={disney} alt="disney mockups" class="max-w-[25rem]" />
