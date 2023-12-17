@@ -1,29 +1,27 @@
 <script>
-	import instagram_work from '$lib/assets/instagram_work.png';
+	import instagram_work from '$lib/assets/instagram/instagram_work.png';
 </script>
 
-<section class="flex flex-col items-center gap-[4rem] max-w-[75%]  mx-auto">
-	<div>
-
-  </div>
+<section class="flex flex-col items-center gap-[4rem] max-w-[75%] mx-auto">
+	<div></div>
 	<div class="flex border-b-2 border-header flex-col pb-[0.5rem] items-center gap-[1.25rem]">
 		<img
 			src={instagram_work}
 			alt="phone screens of instagram work"
-			width="400rem"
+			width="50%"
 			class="object-cover"
 		/>
 		<p class="text-4xl text-center">
-			Instagram: <i>Grocery shopping and meal planning solution</i>
+			Instagram Concept: <i>Learning to Love the Explore Page</i>
 			<br />
-			Product Designer | 16 Weeks
+			Product Designer | 10 Weeks
 		</p>
 
 		<p>
 			<b>Overview</b>
 			<br />
-			A mobile application aimed to help users with dietary restrictions grocery shop, meal prep, and
-			maintain a balanced diet efficiently!
+			An explore page feature concept that allows the user to customize the content they see on their
+			explore page based.
 		</p>
 	</div>
 
@@ -65,7 +63,7 @@
 		</a>
 	</div>
 	<div>
-		<a class="flex items-center gap-[1.5rem]" href="/work/carriage">
+		<a class="flex items-center gap-[1.5rem]" href="/work/about">
 			<p>Next</p>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"

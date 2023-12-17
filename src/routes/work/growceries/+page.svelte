@@ -1,5 +1,5 @@
 <script>
-	import growceries_work from '$lib/assets/growceries_work.png';
+	import growceries_work from '$lib/assets/grow-ceries/growceries_work.png';
 </script>
 
 <section class="flex flex-col items-center gap-[4rem] max-w-[75%]  mx-auto">
@@ -10,7 +10,7 @@
 		<img
 			src={growceries_work}
 			alt="phone screens of grow-ceries work"
-			width="400rem"
+			width="50%"
 			class="object-cover"
 		/>
 		<p class="text-4xl text-center">

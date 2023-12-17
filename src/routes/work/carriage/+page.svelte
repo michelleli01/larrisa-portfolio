@@ -1,6 +1,6 @@
 <script>
-	import carriage_work from '$lib/assets/carriage_work.png';
-  import original_employee from "$lib/assets/original_employee.png"
+	import carriage_work from '$lib/assets/carriage/carriage_work.png';
+  import original_employee from "$lib/assets/carriage/original_employee.png"
 </script>
 
 <section class="flex flex-col items-center gap-[4rem] max-w-[75%] mx-auto">
@@ -63,7 +63,7 @@
 		</a>
 	</div>
 	<div>
-		<a class="flex items-center gap-[1.5rem]" href="/work/carriage">
+		<a class="flex items-center gap-[1.5rem]" href="/work/instagram">
 			<p>Next</p>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
