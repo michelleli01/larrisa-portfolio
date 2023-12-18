@@ -5,7 +5,7 @@
 <section class="flex flex-col items-center gap-[4rem] max-w-[75%] mx-auto">
 	<div></div>
 	<div class="flex border-b-2 border-header flex-col pb-[0.5rem] items-center gap-[1.25rem]">
-		<img src={disney_work} alt="phone screens of disney work" width="25%" class="object-cover" />
+		<img src={disney_work} alt="phone screens of disney work" class="object-cover md:max-w-[25%]" />
 		<p class="text-4xl text-center md:max-w-[40rem]">
 			Disney Genie: <i>Make the Most of Your Visit</i>
 
@@ -68,7 +68,7 @@
 	<div></div>
 </section>
 <div class="flex justify-between max-w-[75%] mx-auto mb-[4rem]">
-	<div>
+	<div class="max-w-[40%] md:max-w-[100%]">
 		<a class="flex items-center gap-[1.5rem]" href="/#work">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -85,7 +85,7 @@
 			<p>Home</p>
 		</a>
 	</div>
-	<div>
+	<div class="max-w-[40%] md:max-w-[100%]">
 		<a class="flex items-center gap-[1.5rem]" href="/work/growceries">
 			<p>Next</p>
 			<svg
