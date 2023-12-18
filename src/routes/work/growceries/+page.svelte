@@ -123,16 +123,30 @@
 		</div>
 
 		<div class="flex flex-col items-start gap-[1rem]">
-			<h2 class="font-semibold text-[1.5rem]">Final Flows</h2>
-			<div class="flex flex-col md:flex-row mx-[4rem]">
-				<img
-					src={final_flow_1}
-					alt="final flow gif part 1"
-					class="mb-[3rem] md:mr-[3rem] md:mb-0 md:max-w-[25%]"
-				/>
-				<img src={final_flow_2} alt="final flow gif part 2" class="md:max-w-[25%]" />
-				<img src={final_flow_3} alt="final flow gif part 3" class="md:max-w-[25%]" />
-				<img src={final_flow_3} alt="final flow gif part 4" class="md:max-w-[25%]" />
+			<div>
+				<h2 class="font-semibold text-[1.5rem]">Final Flows</h2>
+			</div>
+			<div class="flex flex-col md:flex-row mx-[4rem] gap-[3rem] md:gap-0">
+				<div class="flex flex-col items-center gap-[0.75rem]">
+					<img
+						src={final_flow_1}
+						alt="final flow gif part 1"
+						class="md:max-w-[50%]"
+					/>
+					<p>Home Page</p>
+				</div>
+				<div class="flex flex-col items-center gap-[0.75rem]">
+					<img src={final_flow_2} alt="final flow gif part 2" class="md:max-w-[50%]" />
+					<p>Groceries</p>
+				</div>
+        	<div class="flex flex-col items-center gap-[0.75rem]">
+					<img src={final_flow_3} alt="final flow gif part 2" class="md:max-w-[50%]" />
+					<p>Recipes</p>
+				</div>
+        	<div class="flex flex-col items-center gap-[0.75rem]">
+					<img src={final_flow_4} alt="final flow gif part 2" class="md:max-w-[50%]" />
+					<p>Allergen Scanner</p>
+				</div>
 			</div>
 		</div>
 
