@@ -4,6 +4,9 @@
 	import custom_explore_wireframes from '$lib/assets/instagram/custom_explore_wireframe.png';
 	import instagram_iterations from '$lib/assets/instagram/instagram_iterations.png';
 	import added_tag from '$lib/assets/instagram/added_tag.png';
+  import final_flow_1 from '$lib/assets/instagram/final_flow_1.gif'
+  import final_flow_2 from '$lib/assets/instagram/final_flow_2.gif'
+
 </script>
 
 <section class="flex flex-col gap-[4rem] max-w-[75%] mx-auto">
@@ -234,6 +237,11 @@
 			<div>
 				<h2 class="font-semibold text-[1.5rem]">Final Flows</h2>
 			</div>
+      <div class="flex flex-col md:flex-row mx-[4rem]">
+        <img src={final_flow_1} alt="final flow gif part 1" class="mb-[3rem] md:mr-[3rem] md:mb-0 md:max-w-[25%]">
+        <img src={final_flow_2} alt="final flow gif part 2" class="md:max-w-[25%]">
+
+      </div>
 		</div>
 		<div class="flex flex-col items-start gap-[1rem]">
 			<div>
