@@ -34,7 +34,7 @@
 		</p>
 		<div>
 			<p>Here’s what I’ve learned during my time at Disney:</p>
-			<ol class="list-decimal list-inside">
+			<ol class="pl-4 list-decimal list-outside">
 				<li>Stay flexible! Constraints can change quickly.</li>
 				<li>
 					Be ready to adapt your solutions to new challenges. It’s ok to make mistakes! Mistakes are
@@ -46,7 +46,7 @@
 		</div>
 		<div>
 			<p>And my most important takeaways so far:</p>
-			<ol class="list-decimal list-inside">
+			<ol class="pl-4 list-decimal list-outside">
 				<li>
 					The technology I am creating as part of the Walt Disney World ecosystem should be a way to
 					enhance a guest’s in-park experience and not be the experience. It’s easy to forget that
