@@ -5,7 +5,7 @@
 <section class="flex flex-col items-center gap-[4rem] max-w-[75%] mx-auto">
 	<div></div>
 	<div class="flex border-b-2 border-header flex-col pb-[0.5rem] items-center gap-[1.25rem]">
-		<img src={disney_work} alt="phone screens of disney work" width="50%" class="object-cover" />
+		<img src={disney_work} alt="phone screens of disney work" width="25%" class="object-cover" />
 		<p class="text-4xl text-center md:max-w-[40rem]">
 			Disney Genie: <i>Make the Most of Your Visit</i>
 
