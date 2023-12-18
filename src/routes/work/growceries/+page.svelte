@@ -1,17 +1,17 @@
 <script>
 	import growceries_work from '$lib/assets/grow-ceries/growceries_work.png';
+	import growceries_poster from '$lib/assets/grow-ceries/growceries_poster.png';
 </script>
 
-<section class="flex flex-col items-center gap-[4rem] max-w-[75%]  mx-auto">
-	<div>
+<section class="flex flex-col items-center gap-[4rem] max-w-[75%] mx-auto">
+	<div></div>
 
-  </div>
-	<div class="flex border-b-2 border-header flex-col pb-[0.5rem] items-center gap-[1.25rem]">
+	<div class="flex border-b-2 border-header flex-col pb-[0.5rem] gap-[1.25rem]">
 		<img
 			src={growceries_work}
 			alt="phone screens of grow-ceries work"
 			width="50%"
-			class="object-cover"
+			class="object-cover items-center mx-auto"
 		/>
 		<p class="text-4xl text-center">
 			Grow-ceries: <i>Grocery shopping and meal planning solution</i>
@@ -28,9 +28,12 @@
 	</div>
 
 	<div class="flex flex-col items-start gap-[2.5rem]">
-		<div>
-			<h2>The Problem</h2>
-			<i>College students want to save money by grocery shopping.</i>
+		<div class="flex flex-col items-start gap-[1rem]">
+			<div>
+				<h2 class="font-semibold text-[1.5rem]">The Problem</h2>
+				<i>College students want to save money by grocery shopping.</i>
+			</div>
+
 			<p>
 				As a college student struggling to maintain a balanced diet while keeping a hectic and
 				unpredictable schedule, it’s hard to remember everything that’s in my fridge and difficult
@@ -41,6 +44,110 @@
 			<p>
 				My team and I wanted to create a product that would conveniently help busy users with
 				dietary restrictions keep a nutritionally balanced diet
+			</p>
+		</div>
+		<div class="flex flex-col items-start gap-[1rem]">
+			<div>
+				<h2 class="font-semibold text-[1.5rem]">User Research</h2>
+				<i>What are pain points for our users?</i>
+			</div>
+
+			<p>
+				We sat down with four students with various dietary restrictions such as nut allergy,
+				vegetarian, and a tropical fruit allergy. From these interviews, we gained the following
+				insights.
+			</p>
+			<p>
+				My team and I wanted to create a product that would conveniently help busy users with
+				dietary restrictions keep a nutritionally balanced diet
+			</p>
+
+			<div>
+				<p>Users typically:</p>
+				<ol class="pl-5 list-decimal list-outside">
+					<li>Are conscious of creating a balanced diet, though they do not all act on it.</li>
+					<li>Prioritize cost and convenience when preparing meals/eating.</li>
+					<li>Do not plan out their meals a long time in advance.</li>
+				</ol>
+			</div>
+		</div>
+
+		<div class="flex flex-col items-start gap-[1rem]">
+			<div>
+				<h2 class="font-semibold text-[1.5rem]">Product Requirements</h2>
+				<i>What do our users need in the product?</i>
+			</div>
+			<div>
+				<p>From these insights, we were able to pull out the following product requirements:</p>
+				<ol class="pl-5 list-decimal list-outside">
+					<li>
+						Take into account the user’s specific restriction, only avoiding foods that the student
+						cannot or does not want to eat and factor in multiple dietary restrictions if necessary.
+					</li>
+					<li>Track what foods the user current has in their kitchen.</li>
+					<li>Recommend meal options based on what ingredients the user has at hand.</li>
+					<li>Identify foods that do not fit within a user’s diet (allergens).</li>
+				</ol>
+			</div>
+		</div>
+
+		<div class="flex flex-col items-start gap-[1rem]">
+			<div>
+				<h2 class="font-semibold text-[1.5rem]">User Testing</h2>
+				<i>How is our design aligning with user needs?</i>
+			</div>
+			<p>
+				The team met with four different users with an established list of tasks and scenarios that
+				would run through all the flows of the original iteration.
+			</p>
+			<div>
+				<p>Metrics for testing:</p>
+				<ol class="pl-5 list-decimal list-outside">
+					<li>Learnability</li>
+					<li>Efficiency (User vs Happy Path click rate)</li>
+					<li>Error rate</li>
+					<li>Fit into user lifestyle</li>
+				</ol>
+			</div>
+			<div>
+				<p>From testing, we were able to identify the following problem areas:</p>
+				<ol class="pl-5 list-decimal list-outside">
+					<li>Many users were confused by the home page display of nutritional information.</li>
+					<li>They wanted clarity on the nav bar icons.</li>
+					<li>They also struggled to understand the search bar within the recipe page.</li>
+				</ol>
+			</div>
+		</div>
+
+		<div class="flex flex-col items-start gap-[1rem]">
+			<h2 class="font-semibold text-[1.5rem]">Final Flows</h2>
+		</div>
+
+		<div class="flex flex-col items-start gap-[1rem]">
+			<div>
+				<h2 class="font-semibold text-[1.5rem]">Bonus</h2>
+				<i>Visual design of logo and poster</i>
+			</div>
+			<img src={growceries_poster} alt="grow-ceries visual design poster" />
+		</div>
+
+		<div class="flex flex-col items-start gap-[1rem]">
+			<div>
+				<h2 class="font-semibold text-[1.5rem]">Takeaways</h2>
+				<i>Future Improvements & Reflection</i>
+			</div>
+			<div>
+				<p>FIf I had more time I would:</p>
+				<ol class="pl-5 list-decimal list-outside">
+					<li>Consider integrating pricing within the grocery aspect.</li>
+					<li>Work more on visual design and branding.</li>
+				</ol>
+			</div>
+			<p>
+				This design process taught me how to create deeply empathetic designs by prioritizing user
+				needs to create an innovate solution. I really enjoyed delving to the root of the problem
+				through user interviews to understand motivations and frustrations as well as testing to see
+				how designs are perceived in real time.
 			</p>
 		</div>
 	</div>
