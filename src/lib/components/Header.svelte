@@ -60,7 +60,7 @@
 			<li class="md:ml-4">
 				<a
 					class="block no-underline hover:underline py-2 hover:text-header md:border-none md:p-0"
-					href="/"
+					href="/#work"
 				>
 					Work
 				</a>
