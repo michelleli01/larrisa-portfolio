@@ -4,9 +4,8 @@
 	import custom_explore_wireframes from '$lib/assets/instagram/custom_explore_wireframe.png';
 	import instagram_iterations from '$lib/assets/instagram/instagram_iterations.png';
 	import added_tag from '$lib/assets/instagram/added_tag.png';
-  import final_flow_1 from '$lib/assets/instagram/final_flow_1.gif'
-  import final_flow_2 from '$lib/assets/instagram/final_flow_2.gif'
-
+	import final_flow_1 from '$lib/assets/instagram/final_flow_1.gif';
+	import final_flow_2 from '$lib/assets/instagram/final_flow_2.gif';
 </script>
 
 <section class="flex flex-col gap-[4rem] max-w-[75%] mx-auto">
@@ -103,7 +102,11 @@
 			</div>
 
 			<p class="font-semibold"><i>Solution B: Customizing the Explore Page</i></p>
-			<img src={custom_explore_wireframes} class="md:max-w-[75%]" alt="pinning accounts wireframes" />
+			<img
+				src={custom_explore_wireframes}
+				class="md:max-w-[75%]"
+				alt="pinning accounts wireframes"
+			/>
 			<p>
 				The user would be able to give input on the content that they are shown on the explore page.
 			</p>
@@ -236,11 +239,20 @@
 			<div>
 				<h2 class="font-semibold text-[1.5rem]">Final Flows</h2>
 			</div>
-      <div class="flex flex-col md:flex-row mx-[4rem]">
-        <img src={final_flow_1} alt="final flow gif part 1" class="mb-[3rem] md:mr-[3rem] md:mb-0 md:max-w-[25%]">
-        <img src={final_flow_2} alt="final flow gif part 2" class="md:max-w-[25%]">
-
-      </div>
+			<div class="flex flex-col md:flex-row mx-[4rem] gap-[3rem] md:gap-0">
+				<div class="flex flex-col items-center gap-[0.75rem]">
+					<img
+						src={final_flow_1}
+						alt="final flow gif part 1"
+						class="md:max-w-[50%]"
+					/>
+					<p>Adding an interest</p>
+				</div>
+				<div class="flex flex-col items-center gap-[0.75rem]">
+					<img src={final_flow_2} alt="final flow gif part 2" class="md:max-w-[50%]" />
+					<p>Deleting an interest</p>
+				</div>
+			</div>
 		</div>
 		<div class="flex flex-col items-start gap-[1rem]">
 			<div>
@@ -282,5 +294,4 @@
 			<p>Home</p>
 		</a>
 	</div>
-
 </div>

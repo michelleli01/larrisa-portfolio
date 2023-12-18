@@ -1,6 +1,10 @@
 <script>
 	import growceries_work from '$lib/assets/grow-ceries/growceries_work.png';
 	import growceries_poster from '$lib/assets/grow-ceries/growceries_poster.png';
+	import final_flow_1 from '$lib/assets/grow-ceries/final_flow_1.gif';
+	import final_flow_2 from '$lib/assets/grow-ceries/final_flow_2.gif';
+	import final_flow_3 from '$lib/assets/grow-ceries/final_flow_3.gif';
+	import final_flow_4 from '$lib/assets/grow-ceries/final_flow_4.gif';
 </script>
 
 <section class="flex flex-col \ gap-[4rem] max-w-[75%] mx-auto">
@@ -10,8 +14,7 @@
 		<img
 			src={growceries_work}
 			alt="phone screens of grow-ceries work"
-			width="50%"
-			class="object-cover items-center mx-auto"
+			class="md:max-w-[50%] object-cover items-center mx-auto"
 		/>
 		<p class="text-4xl text-center">
 			Grow-ceries: <i>Grocery shopping and meal planning solution</i>
@@ -121,6 +124,16 @@
 
 		<div class="flex flex-col items-start gap-[1rem]">
 			<h2 class="font-semibold text-[1.5rem]">Final Flows</h2>
+			<div class="flex flex-col md:flex-row mx-[4rem]">
+				<img
+					src={final_flow_1}
+					alt="final flow gif part 1"
+					class="mb-[3rem] md:mr-[3rem] md:mb-0 md:max-w-[25%]"
+				/>
+				<img src={final_flow_2} alt="final flow gif part 2" class="md:max-w-[25%]" />
+				<img src={final_flow_3} alt="final flow gif part 3" class="md:max-w-[25%]" />
+				<img src={final_flow_3} alt="final flow gif part 4" class="md:max-w-[25%]" />
+			</div>
 		</div>
 
 		<div class="flex flex-col items-start gap-[1rem]">
@@ -154,7 +167,7 @@
 	<div></div>
 </section>
 <div class="flex justify-between max-w-[75%] mx-auto mb-[4rem]">
-	<div>
+	<div class="max-w-[40%] md:max-w-[100%]">
 		<a class="flex items-center gap-[1.5rem]" href="/#work">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -171,7 +184,7 @@
 			<p>Home</p>
 		</a>
 	</div>
-	<div>
+	<div class="max-w-[40%] md:max-w-[100%]">
 		<a class="flex items-center gap-[1.5rem]" href="/work/carriage">
 			<p>Next</p>
 			<svg
