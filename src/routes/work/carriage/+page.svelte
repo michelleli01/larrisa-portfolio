@@ -1,6 +1,10 @@
 <script>
 	import carriage_work from '$lib/assets/carriage/carriage_work.png';
-  import original_employee from "$lib/assets/carriage/original_employee.png"
+	import original_employee from '$lib/assets/carriage/original_employee.png';
+	import carriage_iterations from '$lib/assets/carriage/carriage_iterations.png';
+	import carriage_final_cards from '$lib/assets/carriage/carriage_final_cards.png';
+	import no_show_card from '$lib/assets/carriage/no_show_card.png';
+	import no_show_iterations from '$lib/assets/carriage/no_show_iterations.png';
 </script>
 
 <section class="flex flex-col items-center gap-[4rem] max-w-[75%] mx-auto">
@@ -35,13 +39,101 @@
 			Coming into this product, the original admin/driver cards included their schedules which led
 			to an uneven display of employees. This led to confusion as to why some cards were bigger than
 			others. Users wondered if bigger cards meant the employee was more important than another who
-			was displayed with a smaller card,
+			was displayed with a smaller card.
 		</p>
 		<p>I wanted understand: How can I standardized admin and driver cards?</p>
-    <div>
-      <img src={original_employee} width="30%" alt="original employee cards">
-    </div>
+		<div>
+			<img src={original_employee} width="50%" alt="original employee cards" />
+		</div>
+		<p class="font-semibold">Iterations</p>
+		<p>
+			In order to alleviate differently sized cards, I thought about different interactions which
+			could be integrated.
+		</p>
+		<img src={carriage_iterations} alt="carriage iterations" />
+		<p>
+			I decided that the inclusion of these interactive elements were not user-friendly as it forces
+			too many actions within a small area. I then focused on including only the most important
+			information necessary to be displayed on the card (name, role, and identifier code).
+		</p>
+		<img src={carriage_final_cards} width="75%" alt="carriage final cards" />
+		<b
+			>The final design (E.C.) includes the role directly on the card rather than in the form of
+			bubble tags with icons.</b
+		>
+		<div>
+			<p>I ultimately chose this because…</p>
+			<ol class="pl-5 list-decimal list-outside">
+				<li>The icons would yield accessibility issues.</li>
+				<li>The information is clustered together within the same area.</li>
+			</ol>
+		</div>
 	</div>
+
+	<div class="flex flex-col items-start gap-[1rem]">
+		<div>
+			<h2 class="font-semibold text-[1.5rem]">No Show Reporting</h2>
+			<i>Error recovery for Carriage Drivers</i>
+		</div>
+		<p>
+			Drivers must report students who do not show up for their rides, but sometimes this report can
+			be incorrect. They could have mistakenly not seen the student or the student could have been
+			in a slightly different place than the driver expected.
+		</p>
+		<p>
+			I wanted understand: <i
+				>If students are reported as a “no show” on accident, how can drivers fix this?
+			</i> In other words, I wanted to create an error recovery method for drivers.
+		</p>
+		<div>
+			<img src={no_show_card} width="50%" alt="no show card" />
+		</div>
+		<p class="font-semibold">Iterations</p>
+		<p>
+			In order to alleviate differently sized cards, I thought about different interactions which
+			could be integrated.
+		</p>
+		<img src={no_show_iterations} alt="carriage no show card iterations" />
+		<p>
+			I explored iterations through dark and light indicators. Designs A, B, and C resembled buttons
+			and would mislead users by creating a false affordance in that they are interactive which led
+			me to favor explorations <b>C and D</b>.
+		</p>
+		<b>Final Flow</b>
+		<div>
+			<p>
+				The final design (D) is one which does not look interactive and does not overemphasize the
+				information. Ultimately, I chose this design because…
+			</p>
+			<ol class="pl-5 list-decimal list-outside">
+				<li>
+					The student is marked without the information tag overshadowing the rest of the card.
+				</li>
+				<li>It does not mislead the user by seeming interactive.</li>
+			</ol>
+		</div>
+	</div>
+
+	<div class="flex flex-col items-start gap-[1rem]">
+		<div>
+			<h2 class="font-semibold text-[1.5rem]">Takeaways</h2>
+			<i>Learnings and Reflection</i>
+		</div>
+		<div>
+			<p>I learned:</p>
+			<ol class="pl-5 list-decimal list-outside">
+				<li>The importance of cross role communication.</li>
+				<li>Understanding full scope of user needs.</li>
+			</ol>
+		</div>
+		<p>
+			This was my first time working as the only designer in a multi-role product team which
+			encouraged me to keep channels open with other roles. I love working on a product that has
+			such a profound community impact and am so grateful for the range of work this product has
+			allowed me to explore.
+		</p>
+	</div>
+
 	<div></div>
 </section>
 <div class="flex justify-between max-w-[75%] mx-auto mb-[4rem]">
