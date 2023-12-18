@@ -126,25 +126,25 @@
 			<div>
 				<h2 class="font-semibold text-[1.5rem]">Final Flows</h2>
 			</div>
-			<div class="flex flex-wrap content-center justify-between items-center mx-[4rem] gap-[3rem] md:gap-0">
+			<div class="flex flex-wrap md:flex-nowrap justify-between items-center mx-[4rem] gap-[3rem] md:gap-0">
 				<div class="flex flex-col items-center gap-[1rem]">
 					<img
 						src={final_flow_1}
 						alt="final flow gif part 1"
-						class="md:max-w-[75%]"
+						class="md:max-w-[70%]"
 					/>
 					<p>Home Page</p>
 				</div>
 				<div class="flex flex-col items-center gap-[0.75rem]">
-					<img src={final_flow_2} alt="final flow gif part 2" class="md:max-w-[75%]" />
+					<img src={final_flow_2} alt="final flow gif part 2" class="md:max-w-[70%]" />
 					<p>Groceries</p>
 				</div>
         	<div class="flex flex-col items-center gap-[0.75rem]">
-					<img src={final_flow_3} alt="final flow gif part 2" class="md:max-w-[75%]" />
+					<img src={final_flow_3} alt="final flow gif part 2" class="md:max-w-[70%]" />
 					<p>Recipes</p>
 				</div>
         	<div class="flex flex-col items-center gap-[0.75rem]">
-					<img src={final_flow_4} alt="final flow gif part 2" class="md:max-w-[75%]" />
+					<img src={final_flow_4} alt="final flow gif part 2" class="md:max-w-[70%]" />
 					<p>Allergen Scanner</p>
 				</div>
 			</div>
