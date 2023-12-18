@@ -136,7 +136,7 @@
 	<div></div>
 </section>
 <div class="flex justify-between max-w-[75%] mx-auto mb-[4rem]">
-	<div>
+	<div class="max-w-[40%] md:max-w-[100%]">
 		<a class="flex items-center gap-[1.5rem]" href="/#work">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -153,7 +153,7 @@
 			<p>Home</p>
 		</a>
 	</div>
-	<div>
+	<div class="max-w-[40%] md:max-w-[100%]">
 		<a class="flex items-center gap-[1.5rem]" href="/work/instagram">
 			<p>Next</p>
 			<svg
@@ -171,3 +171,4 @@
 		</a>
 	</div>
 </div>
+
