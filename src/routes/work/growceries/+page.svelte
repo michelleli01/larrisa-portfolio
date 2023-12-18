@@ -3,7 +3,7 @@
 	import growceries_poster from '$lib/assets/grow-ceries/growceries_poster.png';
 </script>
 
-<section class="flex flex-col items-center gap-[4rem] max-w-[75%] mx-auto">
+<section class="flex flex-col \ gap-[4rem] max-w-[75%] mx-auto">
 	<div></div>
 
 	<div class="flex border-b-2 border-header flex-col pb-[0.5rem] gap-[1.25rem]">

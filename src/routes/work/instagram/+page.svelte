@@ -1,15 +1,20 @@
 <script>
 	import instagram_work from '$lib/assets/instagram/instagram_work.png';
+	import pinning_acc_wireframes from '$lib/assets/instagram/pinning_acc_wireframes.png';
+	import custom_explore_wireframes from '$lib/assets/instagram/custom_explore_wireframe.png';
+	import instagram_iterations from '$lib/assets/instagram/instagram_iterations.png';
+	import added_tag from '$lib/assets/instagram/added_tag.png';
 </script>
 
-<section class="flex flex-col items-center gap-[4rem] max-w-[75%] mx-auto">
+<section class="flex flex-col gap-[4rem] max-w-[75%] mx-auto">
 	<div></div>
-	<div class="flex border-b-2 border-header flex-col pb-[0.5rem] items-center gap-[1.25rem]">
+
+	<div class="flex border-b-2 border-header flex-col pb-[0.5rem] gap-[1.25rem]">
 		<img
 			src={instagram_work}
 			alt="phone screens of instagram work"
-			width="50%"
-			class="object-cover"
+			width="25%"
+			class="object-cover items-center mx-auto"
 		/>
 		<p class="text-4xl text-center">
 			Instagram Concept: <i>Learning to Love the Explore Page</i>
@@ -26,23 +31,231 @@
 	</div>
 
 	<div class="flex flex-col items-start gap-[2.5rem]">
-		<div>
-			<h2>The Problem</h2>
-			<i>College students want to save money by grocery shopping.</i>
+		<div class="flex flex-col items-start gap-[1rem]">
+			<div>
+				<h2 class="font-semibold text-[1.5rem]">The Problem</h2>
+				<i>Instagram’s explore page got boring, so I redesigned it..</i>
+			</div>
+
 			<p>
-				As a college student struggling to maintain a balanced diet while keeping a hectic and
-				unpredictable schedule, it’s hard to remember everything that’s in my fridge and difficult
-				to decide what to make. This problem only gets worse for those with dietary restrictions as
-				they have to take the foods they avoid and particular nutritional substitutions into careful
-				consideration.
+				Like many other Instagram users, I use Instagram as a form of entertainment. Whether I’m
+				procrastinating assignments or chilling with friends, I like to scroll through to find posts
+				and stories that interest me. However, I oftentimes find that the content I’m seeing is
+				irrelevant or uninteresting to me.
 			</p>
 			<p>
-				My team and I wanted to create a product that would conveniently help busy users with
-				dietary restrictions keep a nutritionally balanced diet
+				I wanted to understand: <b
+					>How might Instagram content, particularly on the explore page, be more engaging for
+					users?</b
+				>
 			</p>
 		</div>
+		<div class="flex flex-col items-start gap-[1rem]">
+			<div>
+				<h2 class="font-semibold text-[1.5rem]">User Research</h2>
+				<i>What are pain points for users?</i>
+			</div>
+
+			<p>
+				Entering this case study, my original hypothesis was: If Instagram did not focus so much on
+				the shopping feature, the app would be more engaging. My goal was to identify the problems
+				people have with the organization of Instagram. Instead, I found that users had the biggest
+				problem with engaging with the app.
+			</p>
+
+			<div>
+				<p>Key Insights:</p>
+				<ol class="pl-5 list-decimal list-outside">
+					<li>Users believe that they are recommended irrelevant and uninteresting content.</li>
+					<li>Users prioritize seeing the content of people they care about.</li>
+				</ol>
+			</div>
+			<p>😨 <i>”I get shown random content I don’t even relate to.”</i></p>
+		</div>
+
+		<div class="flex flex-col items-start gap-[1rem]">
+			<div>
+				<h2 class="font-semibold text-[1.5rem]">Brainstorming</h2>
+				<i>Exploring engagement</i>
+			</div>
+			<div>
+				<p>Problem spaces to explore:</p>
+				<ol class="pl-5 list-decimal list-outside">
+					<li>
+						Uninteresting Content: How might we create more engaging home pages and explore pages
+						for users?
+					</li>
+					<li>
+						Prioritizing personal content: How might we give users more control over what they are
+						shown?
+					</li>
+				</ol>
+			</div>
+			<p class="font-semibold"><i>Solution A: Pinning Accounts</i></p>
+			<img src={pinning_acc_wireframes} width="50%" alt="pinning accounts wireframes" />
+			<p>The user would be able to pin content from a user such as stories, posts, and messages.</p>
+			<div>
+				✓ Prioritizes content that users actually want to see <br />✅ Allows users to find their
+				close friends' content easier and quicker <br />❌ Decreases time spent on the app <br />❌
+				Users may pin too many accounts which counteracts the strengths
+			</div>
+
+			<p class="font-semibold"><i>Solution B: Customizing the Explore Page</i></p>
+			<img src={custom_explore_wireframes} width="75%" alt="pinning accounts wireframes" />
+			<p>
+				The user would be able to give input on the content that they are shown on the explore page.
+			</p>
+			<div>
+				✅ More engaging content for users <br />
+				✅ Increased interaction with explore page & on the app overall <br />
+				❌ Decrease posting <br />
+				❌ Decrease in interactions with other users
+			</div>
+
+			<p class="font-semibold"><i>Solution A: Pinning Accounts</i></p>
+			<img src={pinning_acc_wireframes} width="50%" alt="pinning accounts wireframes" />
+			<p>The user would be able to pin content from a user such as stories, posts, and messages.</p>
+			<div>
+				✓ Prioritizes content that users actually want to see <br />✅ Allows users to find their
+				close friends' content easier and quicker <br />❌ Decreases time spent on the app <br />❌
+				Users may pin too many accounts which counteracts the strengths
+			</div>
+
+			<p class="font-semibold"><i>Choosing Solution B</i></p>
+			<div>
+				<p>
+					Although both solutions have the same levels of feasibility and impact, I ultimately
+					decided to move forward with the feature that allows users to customize the explore page
+					because:
+				</p>
+				<ol class="pl-5 list-decimal list-outside">
+					<li>
+						Based on interviews, users had the least interest in the explore page. Adding a feature
+						to this page would increase engagement with an aspect of the product they did not
+						interact with much and increase time spent on the app.
+					</li>
+					<li>
+						Users giving direct feedback to the algorithm will allow for them to feel like they have
+						control over what they are seeing.
+					</li>
+				</ol>
+			</div>
+		</div>
+
+		<div class="flex flex-col items-start gap-[1rem]">
+			<div>
+				<h2 class="font-semibold text-[1.5rem]">Entry Points</h2>
+				<i>Iterations</i>
+			</div>
+			<div>
+				<p>There were two methods of entry that were considered.</p>
+				<ol class="pl-5 list-decimal list-outside">
+					<li>A separate page to add the interest tag (A, B, C)</li>
+					<li>Add interest tag from post (D, E)</li>
+				</ol>
+			</div>
+
+			<img src={instagram_iterations} alt="instagram interations" />
+
+			<div>
+				<p>
+					I decided to explore possibilities of creating the entry point at a separate page rather
+					than accessing it from a certain post because:
+				</p>
+				<ol class="pl-5 list-decimal list-outside">
+					<li>
+						For the explorations D and E presented, we can see that the user would not be able to
+						directly add a specific interest. Rather, the app’s algorithm would determine the
+						specific topics of the post and then add those the the user’s tags.
+					</li>
+					<li>
+						When asked about the “Not interested” feedback in the horizontal ellipses icon, many
+						users that were interviewed were either unaware of the option or did not think it was an
+						effective enough way to give feedback to the algorithm as there was explicit indication
+						that they would not be shown these types of posts again.
+					</li>
+				</ol>
+			</div>
+
+			<div>
+				<p><b>Ultimately, I chose C as the final entry point because:</b></p>
+				<ol class="pl-5 list-decimal list-outside">
+					<li>
+						In A, the engineering efforts would be too high as it would require a completely new
+						page focused only on interest tags which confused users when tested.
+					</li>
+					<li>
+						In B, the Add and Follow buttons were too similar which users reported they did not like
+						as it was too visually cluttered..
+					</li>
+					<li>
+						In C, the design combines the hashtag and interest tag pages but with the addition of a
+						like button which adds the topic to the explore page. There is an obvious visible
+						distinction between following a tag and adding the tag to the home page.
+					</li>
+				</ol>
+			</div>
+		</div>
+		<div class="flex flex-col items-start gap-[1rem]">
+			<div>
+				<h2 class="font-semibold text-[1.5rem]">Feedback for Newly Added Tag</h2>
+				<i>Iterations</i>
+			</div>
+			<div>
+				<p>There were three feedback methods that were considered.</p>
+				<ol class="pl-5 list-decimal list-outside">
+					<li>Utilizing the colorization of a new stories indicator (A)</li>
+					<li>Adding a heart indicator (B)</li>
+					<li>No indicator (C)</li>
+				</ol>
+			</div>
+
+			<img src={added_tag} alt="iterations for added tags" />
+
+			<div>
+				<p><b>I decided to choose B as the new tag indicator because:</b></p>
+				<ol class="pl-5 list-decimal list-outside">
+					<li>
+						For users, A was too similar to the new stories indicator and misled them to believe
+						there would be a stories like interaction when pressing the tag.
+					</li>
+					<li>
+						The users did not like the lack of indication as they wanted some sort of feedback.
+					</li>
+					<li>
+						In B, the design is familiar to users, because it is the same icon used when liking
+						posts and adding an interest tag in this case study. It was easy for users to recognize
+						and did not mislead them.
+					</li>
+				</ol>
+			</div>
+		</div>
+		<div class="flex flex-col items-start gap-[1rem]">
+			<div>
+				<h2 class="font-semibold text-[1.5rem]">Final Flows</h2>
+			</div>
+		</div>
+		<div class="flex flex-col items-start gap-[1rem]">
+			<div>
+				<h2 class="font-semibold text-[1.5rem]">Takeaways</h2>
+				<i>Learnings and Reflection</i>
+			</div>
+
+			<div>
+				<p>If I had more time I would</p>
+				<ol class="pl-5 list-decimal list-outside">
+					<li>Conduct more thorough user interviews and user testing</li>
+					<li>Explore more entry points/other flows</li>
+				</ol>
+			</div>
+			<div>
+				This was my first case study and my first experience designing a product from start to
+				finish. I learned how to design and prototype using Figma. I had a lot of fun exploring the
+				possibilities product design has to offer!
+			</div>
+		</div>
+		<div></div>
 	</div>
-	<div></div>
 </section>
 <div class="flex justify-between max-w-[75%] mx-auto mb-[4rem]">
 	<div>
@@ -63,7 +276,7 @@
 		</a>
 	</div>
 	<div>
-		<a class="flex items-center gap-[1.5rem]" href="/work/about">
+		<a class="flex items-center gap-[1.5rem]" href="/work/carriage">
 			<p>Next</p>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
