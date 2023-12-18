@@ -13,8 +13,7 @@
 		<img
 			src={carriage_work}
 			alt="phone screens of carriage work"
-			width="50%"
-			class="object-cover"
+			class="object-cover md:max-w-[50%]"
 		/>
 		<p class="text-4xl text-center">
 			Carriage: <i>Efficient Transit for Students with Disabilities</i>
@@ -43,7 +42,7 @@
 		</p>
 		<p>I wanted understand: How can I standardized admin and driver cards?</p>
 		<div>
-			<img src={original_employee} width="50%" alt="original employee cards" />
+			<img src={original_employee} class="md:max-w-[50%]" alt="original employee cards" />
 		</div>
 		<p class="font-semibold">Iterations</p>
 		<p>
@@ -56,7 +55,7 @@
 			too many actions within a small area. I then focused on including only the most important
 			information necessary to be displayed on the card (name, role, and identifier code).
 		</p>
-		<img src={carriage_final_cards} width="75%" alt="carriage final cards" />
+		<img src={carriage_final_cards} class="md:max-w-[75%]" alt="carriage final cards" />
 		<b
 			>The final design (E.C.) includes the role directly on the card rather than in the form of
 			bubble tags with icons.</b
@@ -86,7 +85,7 @@
 			</i> In other words, I wanted to create an error recovery method for drivers.
 		</p>
 		<div>
-			<img src={no_show_card} width="50%" alt="no show card" />
+			<img src={no_show_card} class="max-w-[50%]" alt="no show card" />
 		</div>
 		<p class="font-semibold">Iterations</p>
 		<p>
