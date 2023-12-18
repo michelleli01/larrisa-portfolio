@@ -16,8 +16,7 @@
 		<img
 			src={instagram_work}
 			alt="phone screens of instagram work"
-			width="25%"
-			class="object-cover items-center mx-auto"
+			class="object-cover items-center mx-auto md:max-w-[25%]"
 		/>
 		<p class="text-4xl text-center">
 			Instagram Concept: <i>Learning to Love the Explore Page</i>
@@ -95,7 +94,7 @@
 				</ol>
 			</div>
 			<p class="font-semibold"><i>Solution A: Pinning Accounts</i></p>
-			<img src={pinning_acc_wireframes} width="50%" alt="pinning accounts wireframes" />
+			<img src={pinning_acc_wireframes} class="md:max-w-[50%]" alt="pinning accounts wireframes" />
 			<p>The user would be able to pin content from a user such as stories, posts, and messages.</p>
 			<div>
 				✓ Prioritizes content that users actually want to see <br />✅ Allows users to find their
@@ -104,7 +103,7 @@
 			</div>
 
 			<p class="font-semibold"><i>Solution B: Customizing the Explore Page</i></p>
-			<img src={custom_explore_wireframes} width="75%" alt="pinning accounts wireframes" />
+			<img src={custom_explore_wireframes} class="md:max-w-[75%]" alt="pinning accounts wireframes" />
 			<p>
 				The user would be able to give input on the content that they are shown on the explore page.
 			</p>
@@ -116,7 +115,7 @@
 			</div>
 
 			<p class="font-semibold"><i>Solution A: Pinning Accounts</i></p>
-			<img src={pinning_acc_wireframes} width="50%" alt="pinning accounts wireframes" />
+			<img src={pinning_acc_wireframes} class="md:max-w-[50%]" alt="pinning accounts wireframes" />
 			<p>The user would be able to pin content from a user such as stories, posts, and messages.</p>
 			<div>
 				✓ Prioritizes content that users actually want to see <br />✅ Allows users to find their
