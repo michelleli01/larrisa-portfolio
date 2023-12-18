@@ -5,6 +5,7 @@
 	import carriage_final_cards from '$lib/assets/carriage/carriage_final_cards.png';
 	import no_show_card from '$lib/assets/carriage/no_show_card.png';
 	import no_show_iterations from '$lib/assets/carriage/no_show_iterations.png';
+	import final_flow from '$lib/assets/carriage/final_flow.gif';
 </script>
 
 <section class="flex flex-col items-center gap-[4rem] max-w-[75%] mx-auto">
@@ -98,7 +99,14 @@
 			and would mislead users by creating a false affordance in that they are interactive which led
 			me to favor explorations <b>C and D</b>.
 		</p>
-		<b>Final Flow</b>
+		<div>
+			<h2 class="font-semibold text-[1.5rem]">Final Flows</h2>
+		</div>
+
+		<div class="flex flex-col items-center gap-[1rem]">
+			<img src={final_flow} alt="final flow gif part 1" class="md:max-w-[50%]" />
+		</div>
+
 		<div>
 			<p>
 				The final design (D) is one which does not look interactive and does not overemphasize the
@@ -171,4 +179,3 @@
 		</a>
 	</div>
 </div>
-
