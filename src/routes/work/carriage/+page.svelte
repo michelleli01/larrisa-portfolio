@@ -8,7 +8,7 @@
 	import final_flow from '$lib/assets/carriage/final_flow.gif';
 </script>
 
-<section class="flex flex-col items-center gap-[4rem] max-w-[75%] mx-auto">
+<section class="flex flex-col items-center gap-[4rem] max-w-[68%] mx-auto">
 	<div></div>
 	<div class="flex border-b-2 border-header flex-col pb-[0.5rem] items-center gap-[1.25rem]">
 		<img
@@ -56,7 +56,7 @@
 			too many actions within a small area. I then focused on including only the most important
 			information necessary to be displayed on the card (name, role, and identifier code).
 		</p>
-		<img src={carriage_final_cards} class="md:max-w-[75%]" alt="carriage final cards" />
+		<img src={carriage_final_cards} class="md:max-w-[68%]" alt="carriage final cards" />
 		<b
 			>The final design (E.C.) includes the role directly on the card rather than in the form of
 			bubble tags with icons.</b
@@ -143,7 +143,7 @@
 
 	<div></div>
 </section>
-<div class="flex justify-between max-w-[75%] mx-auto mb-[4rem]">
+<div class="flex justify-between max-w-[68%] mx-auto mb-[4rem]">
 	<div class="max-w-[40%] md:max-w-[100%]">
 		<a class="flex items-center gap-[1.5rem]" href="/#work">
 			<svg

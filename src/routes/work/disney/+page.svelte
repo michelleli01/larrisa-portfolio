@@ -2,7 +2,7 @@
 	import disney_work from '$lib/assets/disney/disney_work.png';
 </script>
 
-<section class="flex flex-col items-center gap-[4rem] max-w-[75%] mx-auto">
+<section class="flex flex-col items-center gap-[4rem] max-w-[68%] mx-auto">
 	<div></div>
 	<div class="flex border-b-2 border-header flex-col pb-[0.5rem] items-center gap-[1.25rem]">
 		<img src={disney_work} alt="phone screens of disney work" class="object-cover md:max-w-[25%]" />
@@ -67,7 +67,7 @@
 	</div>
 	<div></div>
 </section>
-<div class="flex justify-between max-w-[75%] mx-auto mb-[4rem]">
+<div class="flex justify-between max-w-[68%] mx-auto mb-[4rem]">
 	<div class="max-w-[40%] md:max-w-[100%]">
 		<a class="flex items-center gap-[1.5rem]" href="/#work">
 			<svg

@@ -1,15 +1,14 @@
 <script>
 	import headshot from '$lib/assets/headshot.jpg';
 	import collage from '$lib/assets/collage.png';
-	import collage_mobile from '$lib/assets/collage_mobile.png'
+	import collage_mobile from '$lib/assets/collage_mobile.png';
 </script>
 
-<section class="flex flex-col flex max-w-[75%] gap-[1.5rem] md:gap-[4rem] mx-auto">
+<section class="flex flex-col flex max-w-[68%] gap-[1.5rem] md:gap-[4rem] mx-auto">
 	<div></div>
 	<img src={headshot} alt="headshot" class="md:hidden object-cover max-w-[20rem] rounded-[1rem]" />
 	<div class="flex flex-col md:flex-row justify-between align-center">
 		<div class="max-w-[40rem] gap-[1.25rem]">
-
 			<div class="flex justify-center items-center gap-[1.25rem] max-h-[5rem] max-w-[15rem]">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +25,7 @@
 				</svg>
 				<p class="flex flex-col justify-center">Hey there, I’m Larrisa!</p>
 			</div>
-      <br/>
+			<br />
 			<p>
 				I am a data driven designer with an interdisciplinary background in development, design, and
 				storytelling which helps me solve real world problems. <br /> <br /> I’ve spent most of my
@@ -38,12 +37,16 @@
 			</p>
 		</div>
 
-		<img src={headshot} alt="headshot" class="hidden md:flex object-cover max-w-[20rem] rounded-[1rem]" />
+		<img
+			src={headshot}
+			alt="headshot"
+			class="hidden md:flex object-cover max-w-[20rem] rounded-[1rem]"
+		/>
 	</div>
 
 	<div class="flex flex-col md:flex-row justify-between align-start">
 		<img src={collage} alt="collage of fun memories" class="hidden md:flex md:max-w-[30rem]" />
-		<p class="max-w-[35rem]">
+		<p class="max-w-[30rem]">
 			When I’m not pushing pixels, I love to rock climb, make music, and go on roadtrips. I enjoy
 			watching Survivor and listening to podcasts (pls give me recs!), and I could talk for hours
 			about agricultural ethics, vanilla lattes, and poetry.

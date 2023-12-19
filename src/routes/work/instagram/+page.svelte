@@ -8,7 +8,7 @@
 	import final_flow_2 from '$lib/assets/instagram/final_flow_2.gif';
 </script>
 
-<section class="flex flex-col gap-[4rem] max-w-[75%] mx-auto">
+<section class="flex flex-col gap-[4rem] max-w-[68%] mx-auto">
 	<div></div>
 
 	<div class="flex border-b-2 border-header flex-col pb-[0.5rem] gap-[1.25rem]">
@@ -104,7 +104,7 @@
 			<p class="font-semibold"><i>Solution B: Customizing the Explore Page</i></p>
 			<img
 				src={custom_explore_wireframes}
-				class="md:max-w-[75%]"
+				class="md:max-w-[68%]"
 				alt="pinning accounts wireframes"
 			/>
 			<p>
@@ -241,11 +241,7 @@
 			</div>
 			<div class="flex flex-col md:flex-row mx-[4rem] gap-[3rem] md:gap-0">
 				<div class="flex flex-col items-center gap-[0.75rem]">
-					<img
-						src={final_flow_1}
-						alt="final flow gif part 1"
-						class="md:max-w-[50%]"
-					/>
+					<img src={final_flow_1} alt="final flow gif part 1" class="md:max-w-[50%]" />
 					<p>Adding an interest</p>
 				</div>
 				<div class="flex flex-col items-center gap-[0.75rem]">
@@ -276,7 +272,7 @@
 		<div></div>
 	</div>
 </section>
-<div class="flex justify-between max-w-[75%] mx-auto mb-[4rem]">
+<div class="flex justify-between max-w-[68%] mx-auto mb-[4rem]">
 	<div>
 		<a class="flex items-center gap-[1.5rem]" href="/#work">
 			<svg

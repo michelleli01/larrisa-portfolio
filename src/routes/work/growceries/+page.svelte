@@ -7,7 +7,7 @@
 	import final_flow_4 from '$lib/assets/grow-ceries/final_flow_4.gif';
 </script>
 
-<section class="flex flex-col \ gap-[4rem] max-w-[75%] mx-auto">
+<section class="flex flex-col \ gap-[4rem] max-w-[68%] mx-auto">
 	<div></div>
 
 	<div class="flex border-b-2 border-header flex-col pb-[0.5rem] gap-[1.25rem]">
@@ -126,24 +126,22 @@
 			<div>
 				<h2 class="font-semibold text-[1.5rem]">Final Flows</h2>
 			</div>
-			<div class="flex flex-wrap md:flex-nowrap justify-between items-center mx-[4rem] gap-[3rem] md:gap-0">
+			<div
+				class="flex flex-wrap md:flex-nowrap justify-between items-center mx-[4rem] gap-[3rem] md:gap-0"
+			>
 				<div class="flex flex-col items-center gap-[1rem]">
-					<img
-						src={final_flow_1}
-						alt="final flow gif part 1"
-						class="md:max-w-[70%]"
-					/>
+					<img src={final_flow_1} alt="final flow gif part 1" class="md:max-w-[70%]" />
 					<p>Home Page</p>
 				</div>
 				<div class="flex flex-col items-center gap-[0.75rem]">
 					<img src={final_flow_2} alt="final flow gif part 2" class="md:max-w-[70%]" />
 					<p>Groceries</p>
 				</div>
-        	<div class="flex flex-col items-center gap-[0.75rem]">
+				<div class="flex flex-col items-center gap-[0.75rem]">
 					<img src={final_flow_3} alt="final flow gif part 2" class="md:max-w-[70%]" />
 					<p>Recipes</p>
 				</div>
-        	<div class="flex flex-col items-center gap-[0.75rem]">
+				<div class="flex flex-col items-center gap-[0.75rem]">
 					<img src={final_flow_4} alt="final flow gif part 2" class="md:max-w-[70%]" />
 					<p>Allergen Scanner</p>
 				</div>
@@ -180,7 +178,7 @@
 	</div>
 	<div></div>
 </section>
-<div class="flex justify-between max-w-[75%] mx-auto mb-[4rem]">
+<div class="flex justify-between max-w-[68%] mx-auto mb-[4rem]">
 	<div class="max-w-[40%] md:max-w-[100%]">
 		<a class="flex items-center gap-[1.5rem]" href="/#work">
 			<svg
