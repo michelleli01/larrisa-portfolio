@@ -24,7 +24,7 @@
 				viewBox="0 0 24 24"
 				stroke-width="1.5"
 				stroke="currentColor"
-				class="w-10 h-10 text-header {showMenu ? "hidden": "flex"}"
+				class="w-10 h-10 text-header {showMenu ? 'hidden' : 'flex'}"
 			>
 				<path
 					stroke-linecap="round"
@@ -39,7 +39,7 @@
 				height="38"
 				viewBox="0 0 39 38"
 				fill="none"
-				class="w-10 h-10 text-header {showMenu ? "flex" : "hidden"}"
+				class="w-10 h-10 text-header {showMenu ? 'flex' : 'hidden'}"
 			>
 				<path
 					fill-rule="evenodd"
@@ -75,6 +75,7 @@
 			</li>
 			<li class="md:ml-4">
 				<a
+					target="_blank"
 					class="block no-underline hover:underline py-2 hover:text-header md:border-none md:p-0"
 					href="https://drive.google.com/file/d/1k1Txj8r5F9foS9hBrCeUBWCIQAVDnqXL/view"
 				>
@@ -83,7 +84,6 @@
 			</li>
 		</ul>
 	</nav>
-	<!-- END Global navigation -->
 </header>
 
 <svg
