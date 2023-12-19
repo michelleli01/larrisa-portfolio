@@ -13,7 +13,7 @@
 
 <section class="py-[3.12rem]">
 	<div
-		class="flex flex-col md:flex-row font-header text-[1.5rem] justify-between items-center max-w-[68%] mx-auto"
+		class="flex flex-col md:flex-row font-header text-[1.5rem] justify-between items-center max-w-[65%] md:max-w-[68%] mx-auto"
 	>
 		<img
 			src={home_pic_1}
@@ -45,7 +45,7 @@
 			<img
 				src={disney}
 				alt="disney mockups"
-				class="max-w-[20rem] duration-500 ease-in-out hover:scale-105"
+				class="max-w-[15rem] md:max-w-[20rem] duration-500 ease-in-out hover:scale-105"
 			/>
 			<h2
 				class="font-header font-semibold text-[2rem] text-header bg-project backdrop-blur-[2px] flex px-[2rem] py-[1rem] flex-col content-center align-start gap-[6rem] text-center"
@@ -58,7 +58,7 @@
 			<img
 				src={growceries}
 				alt="disney mockups"
-				class="max-w-[20rem] duration-500 ease-in-out hover:scale-105"
+				class="max-w-[15rem] md:max-w-[20rem] duration-500 ease-in-out hover:scale-105"
 			/>
 			<h2
 				class="font-header font-semibold text-[2rem] text-header bg-project backdrop-blur-[2px] flex px-[2rem] py-[1rem] flex-col content-center align-start gap-[6rem] text-center"
@@ -71,7 +71,7 @@
 			<img
 				src={carriage}
 				alt="disney mockups"
-				class="max-w-[20rem] duration-500 ease-in-out hover:scale-105"
+				class="max-w-[15rem] md:max-w-[20rem] duration-500 ease-in-out hover:scale-105"
 			/>
 			<h2
 				class="font-header font-semibold text-[2rem] text-header bg-project backdrop-blur-[2px] flex px-[2rem] py-[1rem] flex-col content-center align-start gap-[6rem] text-center"
@@ -84,7 +84,7 @@
 			<img
 				src={instagram}
 				alt="disney mockups"
-				class="max-w-[20rem] duration-500 ease-in-out hover:scale-105"
+				class="max-w-[15rem] md:max-w-[20rem] duration-500 ease-in-out hover:scale-105"
 			/>
 			<h2
 				class="font-header font-semibold text-[2rem] text-header bg-project backdrop-blur-[2px] flex px-[2rem] py-[1rem] flex-col content-center align-start gap-[6rem] text-center"
