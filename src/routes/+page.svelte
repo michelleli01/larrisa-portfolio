@@ -39,10 +39,14 @@
 
 <section id="work" class="bg-portfolio pb-[3.12rem]">
 	<div
-		class="flex flex-col items-center md:flex-row md:max-w-[75%] md:mx-auto md:justify-between md:align-items md:content-between md:align-start flex-wrap"
+		class="flex flex-col gap-[5rem] items-center md:flex-row md:max-w-[75%] md:mx-auto md:justify-between md:align-items md:content-between md:align-start flex-wrap"
 	>
-		<a class="flex flex-col align-center pb-[5rem]" href="/work/disney">
-			<img src={disney} alt="disney mockups" class="max-w-[25rem]" />
+		<a class="flex flex-col align-center" href="/work/disney">
+			<img
+				src={disney}
+				alt="disney mockups"
+				class="max-w-[25rem] duration-500 ease-in-out hover:scale-105"
+			/>
 			<h2
 				class="font-header font-semibold text-[2rem] text-header bg-project backdrop-blur-[2px] flex px-[2rem] py-[1rem] flex-col content-center align-start gap-[6rem] text-center"
 			>
@@ -51,7 +55,11 @@
 		</a>
 
 		<a class="flex flex-col align-center" href="/work/growceries">
-			<img src={growceries} alt="disney mockups" class="max-w-[25rem]" />
+			<img
+				src={growceries}
+				alt="disney mockups"
+				class="max-w-[25rem] duration-500 ease-in-out hover:scale-105"
+			/>
 			<h2
 				class="font-header font-semibold text-[2rem] text-header bg-project backdrop-blur-[2px] flex px-[2rem] py-[1rem] flex-col content-center align-start gap-[6rem] text-center"
 			>
@@ -60,7 +68,11 @@
 		</a>
 
 		<a class="flex flex-col align-center" href="/work/carriage">
-			<img src={carriage} alt="disney mockups" class="max-w-[25rem]" />
+			<img
+				src={carriage}
+				alt="disney mockups"
+				class="max-w-[25rem] duration-500 ease-in-out hover:scale-105"
+			/>
 			<h2
 				class="font-header font-semibold text-[2rem] text-header bg-project backdrop-blur-[2px] flex px-[2rem] py-[1rem] flex-col content-center align-start gap-[6rem] text-center"
 			>
@@ -69,7 +81,11 @@
 		</a>
 
 		<a class="flex flex-col align-center" href="/work/instagram">
-			<img src={instagram} alt="disney mockups" class="max-w-[25rem]" />
+			<img
+				src={instagram}
+				alt="disney mockups"
+				class="max-w-[25rem] duration-500 ease-in-out hover:scale-105"
+			/>
 			<h2
 				class="font-header font-semibold text-[2rem] text-header bg-project backdrop-blur-[2px] flex px-[2rem] py-[1rem] flex-col content-center align-start gap-[6rem] text-center"
 			>
