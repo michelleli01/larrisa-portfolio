@@ -4,7 +4,7 @@
 	<div
 		class="flex flex-col items-center pb-[0.5rem] md:pb-0 md:justify-center md:items-start gap-[1.2rem]"
 	>
-		<b> made with ☕️ in ithaca, ny </b>
+		<b> made with ☕️ in atlanta, ga </b>
 		<p>
 			Feel free to view my <a
 				target="_blank"
