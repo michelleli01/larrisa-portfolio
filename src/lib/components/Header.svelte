@@ -52,7 +52,7 @@
 
 	<nav>
 		<ul
-			class="text-[1.5rem] border-b-2 md:gap-[2rem] md:border-none border-header md:flex md:flex-row md:items-center font-normal font-header text-header {showMenu
+			class="text-[1rem] md:text-[1.5rem] border-b-2 md:gap-[2rem] md:border-none border-header md:flex md:flex-row md:items-center font-normal font-header text-header {showMenu
 				? 'flex-col text-center'
 				: 'hidden'}"
 		>
