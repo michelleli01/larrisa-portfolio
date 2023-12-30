@@ -8,22 +8,22 @@
 	import final_flow_2 from '$lib/assets/instagram/final_flow_2.gif';
 </script>
 
-<section class="flex flex-col gap-[4rem] max-w-[68%] mx-auto">
+<section class="flex flex-col items-center gap-5 md:gap-[4rem] max-w-[80%] md:max-w-[68%] mx-auto">
 	<div></div>
 
-	<div class="flex border-b-2 border-header flex-col pb-[0.5rem] gap-[1.25rem]">
+	<div class="flex border-b-2 border-header flex-col pb-[0.5rem] items-center gap-[1.25rem]">
 		<img
 			src={instagram_work}
 			alt="phone screens of instagram work"
-			class="object-cover items-center mx-auto md:max-w-[25%]"
+			class="object-cover max-w-[50%] md:max-w-[25%]"
 		/>
-		<p class="text-4xl text-center">
+		<p class="text-[1rem] font-semibold md:font-normal md:text-4xl text-center md:max-w-[40rem]">
 			Instagram Concept: <i>Learning to Love the Explore Page</i>
 			<br />
 			Product Designer | 10 Weeks
 		</p>
 
-		<p>
+		<p class="text-[0.75rem] md:text-[1rem]">
 			<b>Overview</b>
 			<br />
 			An explore page feature concept that allows the user to customize the content they see on their
@@ -31,10 +31,10 @@
 		</p>
 	</div>
 
-	<div class="flex flex-col items-start gap-[2.5rem]">
+	<div class="text-[0.75rem] md:text-[1rem] flex flex-col items-start gap-[1rem] md:gap-[2.5rem]">
 		<div class="flex flex-col items-start gap-[1rem]">
 			<div>
-				<h2 class="font-semibold text-[1.5rem]">The Problem</h2>
+				<h2 class="font-semibold text-[1rem] md:text-[1.5rem]">The Problem</h2>
 				<i>Instagram’s explore page got boring, so I redesigned it..</i>
 			</div>
 
@@ -53,7 +53,7 @@
 		</div>
 		<div class="flex flex-col items-start gap-[1rem]">
 			<div>
-				<h2 class="font-semibold text-[1.5rem]">User Research</h2>
+				<h2 class="font-semibold text-[1rem] md:text-[1.5rem]">User Research</h2>
 				<i>What are pain points for users?</i>
 			</div>
 
@@ -149,7 +149,7 @@
 
 		<div class="flex flex-col items-start gap-[1rem]">
 			<div>
-				<h2 class="font-semibold text-[1.5rem]">Entry Points</h2>
+				<h2 class="font-semibold text-[1rem] md:text-[1.5rem]">Entry Points</h2>
 				<i>Iterations</i>
 			</div>
 			<div>
@@ -203,7 +203,7 @@
 		</div>
 		<div class="flex flex-col items-start gap-[1rem]">
 			<div>
-				<h2 class="font-semibold text-[1.5rem]">Feedback for Newly Added Tag</h2>
+				<h2 class="font-semibold text-[1rem] md:text-[1.5rem]">Feedback for Newly Added Tag</h2>
 				<i>Iterations</i>
 			</div>
 			<div>
@@ -237,22 +237,22 @@
 		</div>
 		<div class="flex flex-col items-start gap-[1rem]">
 			<div>
-				<h2 class="font-semibold text-[1.5rem]">Final Flows</h2>
+				<h2 class="font-semibold text-[1rem] md:text-[1.5rem]">Final Flows</h2>
 			</div>
-			<div class="flex flex-col md:flex-row mx-[4rem] gap-[3rem] md:gap-0">
+			<div class="flex flex-col md:flex-row mx-[4rem] gap-[2rem] md:gap-0">
 				<div class="flex flex-col items-center gap-[0.75rem]">
-					<img src={final_flow_1} alt="final flow gif part 1" class="md:max-w-[50%]" />
+					<img src={final_flow_1} alt="final flow gif part 1" class="max-w-[50%]" />
 					<p>Adding an interest</p>
 				</div>
 				<div class="flex flex-col items-center gap-[0.75rem]">
-					<img src={final_flow_2} alt="final flow gif part 2" class="md:max-w-[50%]" />
+					<img src={final_flow_2} alt="final flow gif part 2" class="max-w-[50%]" />
 					<p>Deleting an interest</p>
 				</div>
 			</div>
 		</div>
 		<div class="flex flex-col items-start gap-[1rem]">
 			<div>
-				<h2 class="font-semibold text-[1.5rem]">Takeaways</h2>
+				<h2 class="font-semibold text-[1rem] md:text-[1.5rem]">Takeaways</h2>
 				<i>Learnings and Reflection</i>
 			</div>
 

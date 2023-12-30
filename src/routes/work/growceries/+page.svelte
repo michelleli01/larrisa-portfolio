@@ -7,22 +7,22 @@
 	import final_flow_4 from '$lib/assets/grow-ceries/final_flow_4.gif';
 </script>
 
-<section class="flex flex-col \ gap-[4rem] max-w-[68%] mx-auto">
+<section class="flex flex-col items-center gap-5 md:gap-[4rem] max-w-[80%] md:max-w-[68%] mx-auto">
 	<div></div>
 
-	<div class="flex border-b-2 border-header flex-col pb-[0.5rem] gap-[1.25rem]">
+	<div class="flex border-b-2 border-header flex-col pb-[0.5rem] items-center gap-[1.25rem]">
 		<img
 			src={growceries_work}
 			alt="phone screens of grow-ceries work"
-			class="md:max-w-[50%] object-cover items-center mx-auto"
+			class="object-cover max-w-[50%] md:max-w-[25%]"
 		/>
-		<p class="text-4xl text-center">
+		<p class="text-[1rem] font-semibold md:font-normal md:text-4xl text-center md:max-w-[40rem]">
 			Grow-ceries: <i>Grocery shopping and meal planning solution</i>
 			<br />
 			Product Designer | 16 Weeks
 		</p>
 
-		<p>
+		<p class="text-[0.75rem] md:text-[1rem]">
 			<b>Overview</b>
 			<br />
 			A mobile application aimed to help users with dietary restrictions grocery shop, meal prep, and
@@ -30,10 +30,10 @@
 		</p>
 	</div>
 
-	<div class="flex flex-col items-start gap-[2.5rem]">
+	<div class="text-[0.75rem] md:text-[1rem] flex flex-col items-start gap-[1rem] md:gap-[2.5rem]">
 		<div class="flex flex-col items-start gap-[1rem]">
 			<div>
-				<h2 class="font-semibold text-[1.5rem]">The Problem</h2>
+				<h2 class="font-semibold text-[1rem] md:text-[1.5rem]">The Problem</h2>
 				<i>College students want to save money by grocery shopping.</i>
 			</div>
 
@@ -51,7 +51,7 @@
 		</div>
 		<div class="flex flex-col items-start gap-[1rem]">
 			<div>
-				<h2 class="font-semibold text-[1.5rem]">User Research</h2>
+				<h2 class="font-semibold text-[1rem] md:text-[1.5rem]">User Research</h2>
 				<i>What are pain points for our users?</i>
 			</div>
 
@@ -77,7 +77,7 @@
 
 		<div class="flex flex-col items-start gap-[1rem]">
 			<div>
-				<h2 class="font-semibold text-[1.5rem]">Product Requirements</h2>
+				<h2 class="font-semibold text-[1rem] md:text-[1.5rem]">Product Requirements</h2>
 				<i>What do our users need in the product?</i>
 			</div>
 			<div>
@@ -96,7 +96,7 @@
 
 		<div class="flex flex-col items-start gap-[1rem]">
 			<div>
-				<h2 class="font-semibold text-[1.5rem]">User Testing</h2>
+				<h2 class="font-semibold text-[1rem] md:text-[1.5rem]">User Testing</h2>
 				<i>How is our design aligning with user needs?</i>
 			</div>
 			<p>
@@ -124,25 +124,25 @@
 
 		<div class="flex flex-col items-start gap-[1rem]">
 			<div>
-				<h2 class="font-semibold text-[1.5rem]">Final Flows</h2>
+				<h2 class="font-semibold text-[1rem] md:text-[1.5rem]">Final Flows</h2>
 			</div>
 			<div
-				class="flex flex-wrap md:flex-nowrap justify-between items-center mx-[4rem] gap-[3rem] md:gap-0"
+				class="flex flex-wrap md:flex-nowrap justify-between items-center mx-[4rem] gap-[2rem] md:gap-0"
 			>
 				<div class="flex flex-col items-center gap-[1rem]">
-					<img src={final_flow_1} alt="final flow gif part 1" class="md:max-w-[70%]" />
+					<img src={final_flow_1} alt="final flow gif part 1" class="max-w-[50%] md:max-w-[70%]" />
 					<p>Home Page</p>
 				</div>
 				<div class="flex flex-col items-center gap-[0.75rem]">
-					<img src={final_flow_2} alt="final flow gif part 2" class="md:max-w-[70%]" />
+					<img src={final_flow_2} alt="final flow gif part 2" class="max-w-[50%] md:max-w-[70%]" />
 					<p>Groceries</p>
 				</div>
 				<div class="flex flex-col items-center gap-[0.75rem]">
-					<img src={final_flow_3} alt="final flow gif part 2" class="md:max-w-[70%]" />
+					<img src={final_flow_3} alt="final flow gif part 2" class="max-w-[50%] md:max-w-[70%]" />
 					<p>Recipes</p>
 				</div>
 				<div class="flex flex-col items-center gap-[0.75rem]">
-					<img src={final_flow_4} alt="final flow gif part 2" class="md:max-w-[70%]" />
+					<img src={final_flow_4} alt="final flow gif part 2" class="max-w-[50%] md:max-w-[70%]" />
 					<p>Allergen Scanner</p>
 				</div>
 			</div>
@@ -150,7 +150,7 @@
 
 		<div class="flex flex-col items-start gap-[1rem]">
 			<div>
-				<h2 class="font-semibold text-[1.5rem]">Bonus</h2>
+				<h2 class="font-semibold text-[1rem] md:text-[1.5rem]">Bonus</h2>
 				<i>Visual design of logo and poster</i>
 			</div>
 			<img src={growceries_poster} alt="grow-ceries visual design poster" />
@@ -158,7 +158,7 @@
 
 		<div class="flex flex-col items-start gap-[1rem]">
 			<div>
-				<h2 class="font-semibold text-[1.5rem]">Takeaways</h2>
+				<h2 class="font-semibold text-[1rem] md:text-[1.5rem]">Takeaways</h2>
 				<i>Future Improvements & Reflection</i>
 			</div>
 			<div>

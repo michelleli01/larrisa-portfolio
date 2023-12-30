@@ -2,7 +2,7 @@
 	class="flex max-w-[100%] flex-col flex-start md:flex-row md:justify-between md:align-center px-[2rem] pb-[2rem] pt-[2.5rem] bg-footer"
 >
 	<div
-		class="flex flex-col items-center pb-[0.5rem] md:pb-0 md:justify-center md:items-start gap-[1.2rem]"
+		class="font-normal flex flex-col items-center pb-[0.5rem] md:pb-0 md:justify-center md:items-start gap-[1.2rem]"
 	>
 		<b> made with ☕️ in atlanta, ga </b>
 		<p>

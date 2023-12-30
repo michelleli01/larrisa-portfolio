@@ -2,16 +2,20 @@
 	import disney_work from '$lib/assets/disney/disney_work.png';
 </script>
 
-<section class="flex flex-col items-center gap-[4rem] max-w-[68%] mx-auto">
+<section class="flex flex-col items-center gap-[4rem] max-w-[80%] md:max-w-[68%] mx-auto">
 	<div></div>
 	<div class="flex border-b-2 border-header flex-col pb-[0.5rem] items-center gap-[1.25rem]">
-		<img src={disney_work} alt="phone screens of disney work" class="object-cover md:max-w-[25%]" />
-		<p class="text-4xl text-center md:max-w-[40rem]">
+		<img
+			src={disney_work}
+			alt="phone screens of disney work"
+			class="object-cover max-w-[50%] md:max-w-[25%]"
+		/>
+		<p class="text-[1rem] font-semibold md:font-normal md:text-4xl text-center md:max-w-[40rem]">
 			Disney Genie: <i>Make the Most of Your Visit</i>
 
 			<br />Product Designer | Current Position
 		</p>
-		<p>
+		<p class="text-[0.75rem] md:text-[1rem]">
 			<b>Overview</b>
 			<br />
 			<a
@@ -23,7 +27,7 @@
 		</p>
 	</div>
 
-	<div class="flex flex-col items-start gap-[2.5rem]">
+	<div class="text-[0.75rem] md:text-[1rem] flex flex-col items-start gap-[2.5rem]">
 		<p>
 			I was brought on as a summer 2023 intern and received an extension to March 2024. Due to the
 			sensitive nature of current projects, I am unable to publicly share my work on Genie. If
