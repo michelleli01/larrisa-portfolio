@@ -96,7 +96,7 @@
 			<img src={pinning_acc_wireframes} class="md:max-w-[50%]" alt="pinning accounts wireframes" />
 			<p>The user would be able to pin content from a user such as stories, posts, and messages.</p>
 			<div>
-				✓ Prioritizes content that users actually want to see <br />✅ Allows users to find their
+				✅ Prioritizes content that users actually want to see <br />✅ Allows users to find their
 				close friends' content easier and quicker <br />❌ Decreases time spent on the app <br />❌
 				Users may pin too many accounts which counteracts the strengths
 			</div>
@@ -115,15 +115,6 @@
 				✅ Increased interaction with explore page & on the app overall <br />
 				❌ Decrease posting <br />
 				❌ Decrease in interactions with other users
-			</div>
-
-			<p class="font-semibold"><i>Solution A: Pinning Accounts</i></p>
-			<img src={pinning_acc_wireframes} class="md:max-w-[50%]" alt="pinning accounts wireframes" />
-			<p>The user would be able to pin content from a user such as stories, posts, and messages.</p>
-			<div>
-				✓ Prioritizes content that users actually want to see <br />✅ Allows users to find their
-				close friends' content easier and quicker <br />❌ Decreases time spent on the app <br />❌
-				Users may pin too many accounts which counteracts the strengths
 			</div>
 
 			<p class="font-semibold"><i>Choosing Solution B</i></p>

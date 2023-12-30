@@ -26,8 +26,8 @@
 		>
 			<p>Howdy! I’m Larrisa!</p>
 			<p>
-				I’m an designer, story teller, and animal lover currently making magic at Disney✨ and
-				studying at Cornell 🍎.
+				I’m a designer, story teller, and animal lover currently making magic at Disney✨ and
+				studying at Cornell 🍎
 			</p>
 		</div>
 
