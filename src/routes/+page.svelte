@@ -21,7 +21,9 @@
 			class="md:hidden object-cover max-h-[20vh] rounded-[1rem] mb-[2rem]"
 		/>
 
-		<div class="md:flex md:flex-col md:items-start md:max-w-[30rem] gap-[1.25rem]">
+		<div
+			class="text-[1rem] md:text-[1.5rem] md:flex md:flex-col md:items-start md:max-w-[30rem] gap-[1.25rem]"
+		>
 			<p>Howdy! I’m Larrisa!</p>
 			<p>
 				I’m an designer, story teller, and animal lover currently making magic at Disney✨ and
@@ -48,7 +50,7 @@
 				class="max-w-[15rem] md:max-w-[20rem] duration-500 ease-in-out hover:scale-105"
 			/>
 			<h2
-				class="font-header font-semibold text-[2rem] text-header bg-project backdrop-blur-[2px] flex px-[2rem] py-[1rem] flex-col content-center align-start gap-[6rem] text-center"
+				class="font-header font-semibold text-[1.25rem] md:text-[2rem] text-header bg-project backdrop-blur-[2px] flex px-[2rem] py-[1rem] flex-col content-center align-start gap-[6rem] text-center"
 			>
 				Disney
 			</h2>
@@ -61,7 +63,7 @@
 				class="max-w-[15rem] md:max-w-[20rem] duration-500 ease-in-out hover:scale-105"
 			/>
 			<h2
-				class="font-header font-semibold text-[2rem] text-header bg-project backdrop-blur-[2px] flex px-[2rem] py-[1rem] flex-col content-center align-start gap-[6rem] text-center"
+				class="font-header font-semibold text-[1.25rem] md:text-[2rem] text-header bg-project backdrop-blur-[2px] flex px-[2rem] py-[1rem] flex-col content-center align-start gap-[6rem] text-center"
 			>
 				Grow-ceries
 			</h2>
@@ -74,7 +76,7 @@
 				class="max-w-[15rem] md:max-w-[20rem] duration-500 ease-in-out hover:scale-105"
 			/>
 			<h2
-				class="font-header font-semibold text-[2rem] text-header bg-project backdrop-blur-[2px] flex px-[2rem] py-[1rem] flex-col content-center align-start gap-[6rem] text-center"
+				class="font-header font-semibold text-[1.25rem] md:text-[2rem] text-header bg-project backdrop-blur-[2px] flex px-[2rem] py-[1rem] flex-col content-center align-start gap-[6rem] text-center"
 			>
 				Carriage
 			</h2>
@@ -87,7 +89,7 @@
 				class="max-w-[15rem] md:max-w-[20rem] duration-500 ease-in-out hover:scale-105"
 			/>
 			<h2
-				class="font-header font-semibold text-[2rem] text-header bg-project backdrop-blur-[2px] flex px-[2rem] py-[1rem] flex-col content-center align-start gap-[6rem] text-center"
+				class="font-header font-semibold text-[1.25rem] md:text-[2rem] text-header bg-project backdrop-blur-[2px] flex px-[2rem] py-[1rem] flex-col content-center align-start gap-[6rem] text-center"
 			>
 				Instagram
 			</h2>
