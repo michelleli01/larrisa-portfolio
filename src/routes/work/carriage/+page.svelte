@@ -8,21 +8,21 @@
 	import final_flow from '$lib/assets/carriage/final_flow.gif';
 </script>
 
-<section class="flex flex-col items-center gap-[4rem] max-w-[68%] mx-auto">
+<section class="flex flex-col items-center gap-5 md:gap-[4rem] max-w-[80%] md:max-w-[68%] mx-auto">
 	<div></div>
-	<div class="flex border-b-2 border-header flex-col pb-[0.5rem] items-center gap-[1.25rem]">
+	<div class="flex border-b-2 border-header flex-col pb-[0.5rem] items-center gap-[1rem]">
 		<img
 			src={carriage_work}
 			alt="phone screens of carriage work"
-			class="object-cover md:max-w-[50%]"
+			class="object-cover max-w-[50%] md:max-w-[25%]"
 		/>
-		<p class="text-4xl text-center">
+		<p class="text-[1rem] font-semibold md:font-normal md:text-4xl text-center md:max-w-[40rem]">
 			Carriage: <i>Efficient Transit for Students with Disabilities</i>
 			<br />
 			Product Designer | 16 Weeks
 		</p>
 
-		<p>
+		<p class="text-[0.75rem] md:text-[1rem]">
 			<b>Overview</b>
 			<br />
 			A product which works with Cornell’s CULift to provide transportation for students with disabilities
@@ -30,9 +30,9 @@
 		</p>
 	</div>
 
-	<div class="flex flex-col items-start gap-[1rem]">
+	<div class="text-[0.75rem] md:text-[1rem] flex flex-col items-start gap-[1rem] md:gap-[2.5rem]">
 		<div>
-			<h2 class="font-semibold text-[1.5rem]">Admin/Driver Cards</h2>
+			<h2 class="font-semibold text-[1rem] md:text-[1.5rem]">Admin/Driver Cards</h2>
 			<i>Standardizing cards for better visual understanding.</i>
 		</div>
 		<p>
@@ -70,9 +70,9 @@
 		</div>
 	</div>
 
-	<div class="flex flex-col items-start gap-[1rem]">
+	<div class="text-[0.75rem] md:text-[1rem] flex flex-col items-start gap-[1rem] md:gap-[2.5rem]">
 		<div>
-			<h2 class="font-semibold text-[1.5rem]">No Show Reporting</h2>
+			<h2 class="font-semibold text-[1rem] md:text-[1.5rem]">No Show Reporting</h2>
 			<i>Error recovery for Carriage Drivers</i>
 		</div>
 		<p>
@@ -100,11 +100,11 @@
 			me to favor explorations <b>C and D</b>.
 		</p>
 		<div>
-			<h2 class="font-semibold text-[1.5rem]">Final Flows</h2>
+			<h2 class="font-semibold text-[1rem] md:text-[1.5rem]">Final Flows</h2>
 		</div>
 
 		<div class="flex flex-col items-center gap-[1rem]">
-			<img src={final_flow} alt="final flow gif part 1" class="md:max-w-[50%]" />
+			<img src={final_flow} alt="final flow gif part 1" class="max-w-[35%] md:max-w-[50%]" />
 		</div>
 
 		<div>
@@ -121,9 +121,9 @@
 		</div>
 	</div>
 
-	<div class="flex flex-col items-start gap-[1rem]">
+	<div class="text-[0.75rem] md:text-[1rem] flex flex-col items-start gap-[1rem] md:gap-[2.5rem]">
 		<div>
-			<h2 class="font-semibold text-[1.5rem]">Takeaways</h2>
+			<h2 class="font-semibold text-[1rem] md:text-[1.5rem]">Takeaways</h2>
 			<i>Learnings and Reflection</i>
 		</div>
 		<div>

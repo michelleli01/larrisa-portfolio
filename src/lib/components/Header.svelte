@@ -8,16 +8,15 @@
 	}
 </script>
 
-<header class="md:flex md:items-center md:justify-between px-[2rem] pt-[2rem] pb-[1rem]">
+<header
+	class="text-[1rem] md:flex md:items-center md:justify-between px-[2rem] pt-[2rem] pb-[1rem]"
+>
 	<div class="flex items-center justify-between mb-4 md:mb-0">
 		<a href="/">
 			<img src={logo} alt="portfolio logo" class="object-cover max-h-[7vh]" />
 		</a>
 
-		<button
-			on:click={toggleNavbar}
-			class="flex md:hidden font-normal font-header text-header items-end"
-		>
+		<button on:click={toggleNavbar} class="flex md:hidden text-[1.5rem] text-header items-end">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				fill="none"
@@ -53,7 +52,7 @@
 
 	<nav>
 		<ul
-			class="text-[1.5rem] border-b-2 md:gap-[2rem] md:border-none border-header md:flex md:flex-row md:items-center font-normal font-header text-header {showMenu
+			class="text-[1rem] md:text-[1.5rem] border-b-2 md:gap-[2rem] md:border-none border-header md:flex md:flex-row md:items-center font-normal font-header text-header {showMenu
 				? 'flex-col text-center'
 				: 'hidden'}"
 		>
