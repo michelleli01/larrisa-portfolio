@@ -248,7 +248,7 @@
 			</div>
 
 			<div>
-				<p>If I had more time I would</p>
+				<p>If I had more time I would:</p>
 				<ol class="pl-5 list-decimal list-outside">
 					<li>Conduct more thorough user interviews and user testing</li>
 					<li>Explore more entry points/other flows</li>

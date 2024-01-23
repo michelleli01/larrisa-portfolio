@@ -41,7 +41,7 @@
 			others. Users wondered if bigger cards meant the employee was more important than another who
 			was displayed with a smaller card.
 		</p>
-		<p>I wanted understand: How can I standardized admin and driver cards?</p>
+		<p>I wanted to understand: How can I standardized admin and driver cards?</p>
 		<div>
 			<img src={original_employee} class="md:max-w-[50%]" alt="original employee cards" />
 		</div>
@@ -62,7 +62,7 @@
 			bubble tags with icons.</b
 		>
 		<div>
-			<p>I ultimately chose this because…</p>
+			<p>I ultimately chose this because:</p>
 			<ol class="pl-5 list-decimal list-outside">
 				<li>The icons would yield accessibility issues.</li>
 				<li>The information is clustered together within the same area.</li>
@@ -77,11 +77,11 @@
 		</div>
 		<p>
 			Drivers must report students who do not show up for their rides, but sometimes this report can
-			be incorrect. They could have mistakenly not seen the student or the student could have been
+			be incorrect. They could have mistakenly not seen the student, or the student could have been
 			in a slightly different place than the driver expected.
 		</p>
 		<p>
-			I wanted understand: <i
+			I wanted to understand: <i
 				>If students are reported as a “no show” on accident, how can drivers fix this?
 			</i> In other words, I wanted to create an error recovery method for drivers.
 		</p>
@@ -110,7 +110,7 @@
 		<div>
 			<p>
 				The final design (D) is one which does not look interactive and does not overemphasize the
-				information. Ultimately, I chose this design because…
+				information. Ultimately, I chose this design because:
 			</p>
 			<ol class="pl-5 list-decimal list-outside">
 				<li>
