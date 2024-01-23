@@ -46,7 +46,7 @@
 			</p>
 			<p>
 				My team and I wanted to create a product that would conveniently help busy users with
-				dietary restrictions keep a nutritionally balanced diet
+				dietary restrictions keep a nutritionally balanced diet.
 			</p>
 		</div>
 		<div class="flex flex-col items-start gap-[1rem]">
@@ -59,10 +59,6 @@
 				We sat down with four students with various dietary restrictions such as nut allergy,
 				vegetarian, and a tropical fruit allergy. From these interviews, we gained the following
 				insights.
-			</p>
-			<p>
-				My team and I wanted to create a product that would conveniently help busy users with
-				dietary restrictions keep a nutritionally balanced diet
 			</p>
 
 			<div>
@@ -164,8 +160,8 @@
 			<div>
 				<p>FIf I had more time I would:</p>
 				<ol class="pl-5 list-decimal list-outside">
-					<li>Consider integrating pricing within the grocery aspect.</li>
-					<li>Work more on visual design and branding.</li>
+					<li>Consider integrating pricing within the grocery aspect</li>
+					<li>Work more on visual design and branding</li>
 				</ol>
 			</div>
 			<p>
